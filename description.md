@@ -1,4 +1,4 @@
-# English
+# english
 
 March beneath living canopies, through moonlit groves and ancient stone circles, with the forest guardians of **Sylvan**, and bring the patient strength of the wildwood to every battlefield. Sylvan is a nature-bound civilization where fey spirits, hunters, blade dancers, dryads, priestesses, forest wardens, and mountain giants defend a realm that grows with the land instead of against it. Their society prizes balance, precision, and resilience—raising homes among sacred trees, protecting hidden paths, and drawing power from old magic rooted deep in the forest.
 
@@ -10,7 +10,7 @@ Magic and creature abilities are central to Sylvan gameplay identity. The roster
 
 ---
 
-# Czech
+# czech
 
 Kráčejte pod živými korunami stromů, měsíčními háji a dávnými kamennými kruhy po boku lesních strážců frakce **Hvozd** a přeneste na každé bojiště trpělivou sílu hvozdu. Hvozd je civilizace pevně spojená s přírodou, kde férie, hraničáři, tanečníci s čepelí, dryády, druidky, lesní strážci a horští kolosi brání říši, která roste společně s krajinou místo toho, aby ji nahrazovala. Jejich kultura staví na rovnováze, přesnosti a odolnosti.
 
