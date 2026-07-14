@@ -1,0 +1,64 @@
+{
+	"core:stump" : {
+		"types" : {
+			"object" : {
+				"templates" : {
+					"junLanStu01" : {
+						"animation" : "forest/decorations/stump/junLanStu01",
+						"mask" : [
+							"B"
+						],
+						"allowedTerrains" : [
+							"forest"
+						]
+					},
+					"junLanStu02" : {
+						"animation" : "forest/decorations/stump/junLanStu02",
+						"mask" : [
+							"B"
+						],
+						"allowedTerrains" : [
+							"forest"
+						]
+					},
+					"junLanStu03" : {
+						"animation" : "forest/decorations/stump/junLanStu03",
+						"mask" : [
+							"VB"
+						],
+						"allowedTerrains" : [
+							"forest"
+						]
+					},
+					"junLanStu04" : {
+						"animation" : "forest/decorations/stump/junLanStu04",
+						"mask" : [
+							"B"
+						],
+						"allowedTerrains" : [
+							"forest"
+						]
+					},
+					"junLanStu05" : {
+						"animation" : "forest/decorations/stump/junLanStu05",
+						"mask" : [
+							"B"
+						],
+						"allowedTerrains" : [
+							"forest"
+						]
+					},
+					"junLanStu06" : {
+						"animation" : "forest/decorations/stump/junLanStu06",
+						"mask" : [
+							"VB"
+						],
+						"allowedTerrains" : [
+							"forest"
+						]
+					}
+				}
+			}
+		}
+	}
+}

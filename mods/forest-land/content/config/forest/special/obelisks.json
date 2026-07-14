@@ -1,0 +1,25 @@
+{
+	"core:obelisk" : {
+		"types" : {
+			"object" : {
+				"templates" : {
+					"forLanObe" : {
+						"animation" : "forest/special/obelisks/forLanObe",
+						"visitableFrom" : [
+							"---",
+							"-+-",
+							"+++"
+						],
+						"mask" : [
+							"VV",
+							"VA"
+						],
+						"allowedTerrains" : [
+							"forest"
+						]
+					}
+				}
+			}
+		}
+	}
+}

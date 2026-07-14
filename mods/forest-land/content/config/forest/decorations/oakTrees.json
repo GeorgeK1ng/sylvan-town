@@ -1,0 +1,140 @@
+{
+	"core:oakTrees" : {
+		"types" : {
+			"object" : {
+				"templates" : {
+					"forLanOak00" : {
+						"animation" : "forest/decorations/oakTrees/forLanOak00",
+						"mask" : [
+							"VVV",
+							"VBV",
+							"VBV"
+						],
+						"allowedTerrains" : [
+							"forest"
+						]
+					},
+					"forLanOak01" : {
+						"animation" : "forest/decorations/oakTrees/forLanOak01",
+						"mask" : [
+							"VVV",
+							"VBV",
+							"VBV"
+						],
+						"allowedTerrains" : [
+							"forest"
+						]
+					},
+					"forLanOak02" : {
+						"animation" : "forest/decorations/oakTrees/forLanOak02",
+						"mask" : [
+							"VB",
+							"VB"
+						],
+						"allowedTerrains" : [
+							"forest"
+						]
+					},
+					"forLanOak03" : {
+						"animation" : "forest/decorations/oakTrees/forLanOak03",
+						"mask" : [
+							"VV",
+							"VB"
+						],
+						"allowedTerrains" : [
+							"forest"
+						]
+					},
+					"forLanOak04" : {
+						"animation" : "forest/decorations/oakTrees/forLanOak04",
+						"mask" : [
+							"VVBB",
+							"VBBB",
+							"VBBV"
+						],
+						"allowedTerrains" : [
+							"forest"
+						]
+					},
+					"forLanOak05" : {
+						"animation" : "forest/decorations/oakTrees/forLanOak05",
+						"mask" : [
+							"VVBV",
+							"VBBB",
+							"VBBV"
+						],
+						"allowedTerrains" : [
+							"forest"
+						]
+					},
+					"forLanOak06" : {
+						"animation" : "forest/decorations/oakTrees/forLanOak06",
+						"mask" : [
+							"VBBV",
+							"VBBB",
+							"VVBB"
+						],
+						"allowedTerrains" : [
+							"forest"
+						]
+					},
+					"forLanOak07" : {
+						"animation" : "forest/decorations/oakTrees/forLanOak07",
+						"mask" : [
+							"VBBV",
+							"VBBV",
+							"VVBB"
+						],
+						"allowedTerrains" : [
+							"forest"
+						]
+					},
+					"forLanOak08" : {
+						"animation" : "forest/decorations/oakTrees/forLanOak08",
+						"mask" : [
+							"VBBV",
+							"VBBB",
+							"VBBB",
+							"VVBB"
+						],
+						"allowedTerrains" : [
+							"forest"
+						]
+					},
+					"forLanOak09" : {
+						"animation" : "forest/decorations/oakTrees/forLanOak09",
+						"mask" : [
+							"VVBB",
+							"VVBB",
+							"VBBB",
+							"VBBV"
+						],
+						"allowedTerrains" : [
+							"forest"
+						]
+					},
+					"forLanOak10" : {
+						"animation" : "forest/decorations/oakTrees/forLanOak10",
+						"mask" : [
+							"VB",
+							"VB"
+						],
+						"allowedTerrains" : [
+							"forest"
+						]
+					},
+					"forLanOak11" : {
+						"animation" : "forest/decorations/oakTrees/forLanOak11",
+						"mask" : [
+							"VB",
+							"VB"
+						],
+						"allowedTerrains" : [
+							"forest"
+						]
+					}
+				}
+			}
+		}
+	}
+}

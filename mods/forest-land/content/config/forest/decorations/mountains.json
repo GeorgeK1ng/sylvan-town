@@ -1,0 +1,80 @@
+{
+	"core:mountain" : {
+		"types" : {
+			"object" : {
+				"templates" : {
+					"forLanMou01" : {
+						"animation" : "forest/decorations/mountains/forLanMou01",
+						"mask" : [
+							"VVVVVV",
+							"VVVVVV",
+							"VBBBBV",
+							"VBBBBB",
+							"VVVBBB"
+						],
+						"allowedTerrains" : [
+							"forest"
+						]
+					},
+					"forLanMou02" : {
+						"animation" : "forest/decorations/mountains/forLanMou02",
+						"mask" : [
+							"VVVVVV",
+							"VVVVVV",
+							"VVBBBB",
+							"VBBBBB",
+							"VBBBVV"
+						],
+						"allowedTerrains" : [
+							"forest"
+						]
+					},
+					"forLanMou03" : {
+						"animation" : "forest/decorations/mountains/forLanMou03",
+						"mask" : [
+							"VVVV",
+							"VBBB",
+							"VVBB"
+						],
+						"allowedTerrains" : [
+							"forest"
+						]
+					},
+					"forLanMou04" : {
+						"animation" : "forest/decorations/mountains/forLanMou04",
+						"mask" : [
+							"VVVV",
+							"VBBB",
+							"VBBV"
+						],
+						"allowedTerrains" : [
+							"forest"
+						]
+					},
+					"forLanMou05" : {
+						"animation" : "forest/decorations/mountains/forLanMou05",
+						"mask" : [
+							"VVVV",
+							"VBBV",
+							"VVBB"
+						],
+						"allowedTerrains" : [
+							"forest"
+						]
+					},
+					"forLanMou06" : {
+						"animation" : "forest/decorations/mountains/forLanMou06",
+						"mask" : [
+							"VVVV",
+							"VVBB",
+							"VBBV"
+						],
+						"allowedTerrains" : [
+							"forest"
+						]
+					}
+				}
+			}
+		}
+	}
+}

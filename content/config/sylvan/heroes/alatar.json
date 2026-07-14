@@ -1,0 +1,62 @@
+{
+	"alatar" : {
+		"class" : "pathfinder",
+		"female" : false,
+		"texts" : {
+			"name" : "Alatar",
+			"biography" : "Alatar has walked more roads than most know exist, and a few that are better left untrodden. Years beneath the forest canopy sharpened his instincts until broken twigs and bent grass speak to him as clearly as a map to another. Few can rival his eye for the hidden, and fewer still can slip away unseen once Alatar has found their trail.",
+			"specialty" : {
+				"description" : "The hero's scouting radius increases by 1 for every 6 levels.",
+				"tooltip" : "Skill bonus: Scouting",
+				"name" : "Scouting"
+			}
+		},
+		"images" : {
+			"specialtySmall" : "sylvan/heroes/alatar/spec-small.png",
+			"specialtyLarge" : "sylvan/heroes/alatar/spec-large.png",
+			"large" : "sylvan/heroes/alatar/portrait-large.png",
+			"small" : "sylvan/heroes/alatar/portrait-small.png"
+		},
+		"army" : [
+			{
+				"creature" : "evlv1",
+				"min" : 10,
+				"max" : 15
+			},
+			{
+				"creature" : "evlv2",
+				"min" : 6,
+				"max" : 9
+			},
+			{
+				"creature" : "evlv3",
+				"min" : 4,
+				"max" : 6
+			}
+		],
+		"skills" : [
+			{
+				"level" : "basic",
+				"skill" : "scouting"
+			},
+			{
+				"level" : "basic",
+				"skill" : "firstAid"
+			}
+		],
+		"specialty" : {
+			"bonuses" : {
+				"sight" : {
+					"type" : "SIGHT_RADIUS",
+					"val" : 0,
+					"valueType" : "BASE_NUMBER",
+					"updater" : {
+						"type" : "GROWS_WITH_LEVEL",
+						"valPer20" : 20,
+						"stepSize" : 6
+					}
+				}
+			}
+		}
+	}
+}

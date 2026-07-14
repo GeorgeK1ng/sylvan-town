@@ -1,0 +1,33 @@
+{
+	"forest" : {
+		"text" : "Forest",
+		"moveCost" : 100,
+		"minimapUnblocked" : [
+			74,
+			114,
+			27
+		],
+		"minimapBlocked" : [
+			49,
+			74,
+			17
+		],
+		"music" : [
+			"Grass.mp3"
+		],
+		"tiles" : "forest/terrain/forest",
+		"type" : [],
+		"allowedLayers" : [
+			"surface",
+			"unknown"
+		],
+		"shortIdentifier" : "fo",
+		"river" : "waterRiver",
+		"rockTerrain" : "rock",
+		"battleFields" : [
+			"forest"
+		],
+		"horseSound" : "horse02",
+		"horseSoundPenalty" : "horse22"
+	}
+}

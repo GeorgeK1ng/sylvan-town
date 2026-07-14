@@ -1,0 +1,57 @@
+{
+	"evlv3up" : {
+		"name" : {
+			"plural" : "War Dancers",
+			"singular" : "War Dancer"
+		},
+		"advMapAmount" : {
+			"max" : 25,
+			"min" : 16
+		},
+		"faction" : "sylvan",
+		"aiValue" : 359,
+		"attack" : 9,
+		"horde" : 3,
+		"cost" : {
+			"gold" : 250
+		},
+		"damage" : {
+			"max" : 5,
+			"min" : 3
+		},
+		"defense" : 7,
+		"fightValue" : 357,
+		"graphics" : {
+			"animation" : "sylvan/battle/lv3up.def",
+			"map" : "sylvan/map/lv3up.def",
+			"iconSmall" : "sylvan/iconsSmall/lv3up.png",
+			"iconLarge" : "sylvan/iconsBig/lv3up.png",
+			"timeBetweenFidgets" : 1,
+			"animationTime" : {
+				"walk" : 1.0,
+				"idle" : 10.2,
+				"attack" : 1.0
+			}
+		},
+		"hasDoubleWeek" : true,
+		"growth" : 7,
+		"hitPoints" : 20,
+		"shots" : 18,
+		"level" : 3,
+		"sound" : {
+			"attack" : "GELFATTK.wav",
+			"defend" : "GELFDFND.wav",
+			"killed" : "GELFKILL.wav",
+			"move" : "GELFMOVE.wav",
+			"shoot" : "GELFSHOT.wav",
+			"wince" : "GELFWNCE.wav"
+		},
+		"speed" : 9,
+		"abilities" : {
+			"additionalAttack" : {
+				"type" : "ADDITIONAL_ATTACK",
+				"val" : 1
+			}
+		}
+	}
+}

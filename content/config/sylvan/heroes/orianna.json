@@ -1,0 +1,51 @@
+{
+	"orianna" : {
+		"class" : "pathfinder",
+		"female" : true,
+		"texts" : {
+			"name" : "Orianna",
+			"biography" : "Orianna leads not from the rear, but from the very edge of the battlefield where arrows fall like rain. Under her command, even the youngest archers shoot truer and stand firmer. In her hands, simple volleys become a crushing storm.",
+			"specialty" : {
+				"description" : "{Hunters and Master Hunters}\n\nIncreases the Attack and Defense of Hunters and Master Hunters for each level after 2.",
+				"tooltip" : "Creature bonus: Hunters",
+				"name" : "Hunters"
+			}
+		},
+		"images" : {
+			"specialtySmall" : "sylvan/heroes/orianna/spec-small.png",
+			"specialtyLarge" : "sylvan/heroes/orianna/spec-large.png",
+			"large" : "sylvan/heroes/orianna/portrait-large.png",
+			"small" : "sylvan/heroes/orianna/portrait-small.png"
+		},
+		"army" : [
+			{
+				"creature" : "evlv1",
+				"min" : 10,
+				"max" : 15
+			},
+			{
+				"creature" : "evlv2",
+				"min" : 6,
+				"max" : 9
+			},
+			{
+				"creature" : "evlv3",
+				"min" : 4,
+				"max" : 6
+			}
+		],
+		"skills" : [
+			{
+				"skill" : "archery",
+				"level" : "basic"
+			},
+			{
+				"skill" : "offence",
+				"level" : "basic"
+			}
+		],
+		"specialty" : {
+			"creature" : "evlv2"
+		}
+	}
+}

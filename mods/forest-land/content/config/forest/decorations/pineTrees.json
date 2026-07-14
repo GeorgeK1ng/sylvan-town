@@ -1,0 +1,180 @@
+{
+	"core:pineTrees" : {
+		"types" : {
+			"object" : {
+				"templates" : {
+					"forLandPin01" : {
+						"animation" : "forest/decorations/pineTrees/forLandPin01",
+						"mask" : [
+							"VVV",
+							"VBV"
+						],
+						"allowedTerrains" : [
+							"forest"
+						]
+					},
+					"forLandPin02" : {
+						"animation" : "forest/decorations/pineTrees/forLandPin02",
+						"mask" : [
+							"VVV",
+							"VBV"
+						],
+						"allowedTerrains" : [
+							"forest"
+						]
+					},
+					"forLandPin03" : {
+						"animation" : "forest/decorations/pineTrees/forLandPin03",
+						"mask" : [
+							"VVV",
+							"VBV"
+						],
+						"allowedTerrains" : [
+							"forest"
+						]
+					},
+					"forLandPin04" : {
+						"animation" : "forest/decorations/pineTrees/forLandPin04",
+						"mask" : [
+							"VV",
+							"VB"
+						],
+						"allowedTerrains" : [
+							"forest"
+						]
+					},
+					"forLandPin05" : {
+						"animation" : "forest/decorations/pineTrees/forLandPin05",
+						"mask" : [
+							"VV",
+							"VB"
+						],
+						"allowedTerrains" : [
+							"forest"
+						]
+					},
+					"forLandPin06" : {
+						"animation" : "forest/decorations/pineTrees/forLandPin06",
+						"mask" : [
+							"VV",
+							"VB"
+						],
+						"allowedTerrains" : [
+							"forest"
+						]
+					},
+					"forLandPin07" : {
+						"animation" : "forest/decorations/pineTrees/forLandPin07",
+						"mask" : [
+							"VV",
+							"VB"
+						],
+						"allowedTerrains" : [
+							"forest"
+						]
+					},
+					"forLandPin08" : {
+						"animation" : "forest/decorations/pineTrees/forLandPin08",
+						"mask" : [
+							"VV",
+							"VB"
+						],
+						"allowedTerrains" : [
+							"forest"
+						]
+					},
+					"forLandPin09" : {
+						"animation" : "forest/decorations/pineTrees/forLandPin09",
+						"mask" : [
+							"VVVV",
+							"VVBB",
+							"VBBV"
+						],
+						"allowedTerrains" : [
+							"forest"
+						]
+					},
+					"forLandPin10" : {
+						"animation" : "forest/decorations/pineTrees/forLandPin10",
+						"mask" : [
+							"VVVV",
+							"VVBB",
+							"VBBV"
+						],
+						"allowedTerrains" : [
+							"forest"
+						]
+					},
+					"forLandPin11" : {
+						"animation" : "forest/decorations/pineTrees/forLandPin11",
+						"mask" : [
+							"VVVV",
+							"VBBV",
+							"VVBB"
+						],
+						"allowedTerrains" : [
+							"forest"
+						]
+					},
+					"forLandPin12" : {
+						"animation" : "forest/decorations/pineTrees/forLandPin12",
+						"mask" : [
+							"VVVV",
+							"VBBV",
+							"VVBB"
+						],
+						"allowedTerrains" : [
+							"forest"
+						]
+					},
+					"forLandPin13" : {
+						"animation" : "forest/decorations/pineTrees/forLandPin13",
+						"mask" : [
+							"VVVV",
+							"VBBV",
+							"VBBB",
+							"VVBB"
+						],
+						"allowedTerrains" : [
+							"forest"
+						]
+					},
+					"forLandPin14" : {
+						"animation" : "forest/decorations/pineTrees/forLandPin14",
+						"mask" : [
+							"VVVV",
+							"VVBB",
+							"VBBB",
+							"VBBV"
+						],
+						"allowedTerrains" : [
+							"forest"
+						]
+					},
+					"forLandPin15" : {
+						"animation" : "forest/decorations/pineTrees/forLandPin15",
+						"mask" : [
+							"VVV",
+							"VBV",
+							"VVV"
+						],
+						"allowedTerrains" : [
+							"forest"
+						]
+					},
+					"forLandPin16" : {
+						"animation" : "forest/decorations/pineTrees/forLandPin16",
+						"mask" : [
+							"VVV",
+							"VBV",
+							"VVV"
+						],
+						"allowedTerrains" : [
+							"forest"
+						]
+					}
+				}
+			}
+		}
+	}
+}

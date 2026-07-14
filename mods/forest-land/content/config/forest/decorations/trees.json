@@ -1,0 +1,160 @@
+{
+	"core:trees" : {
+		"types" : {
+			"object" : {
+				"templates" : {
+					"forLanBir00" : {
+						"animation" : "forest/decorations/trees/forLanBir00.def",
+						"mask" : [
+							"VV",
+							"VB"
+						],
+						"allowedTerrains" : [
+							"forest"
+						]
+					},
+					"forLanBir01" : {
+						"animation" : "forest/decorations/trees/forLanBir01.def",
+						"mask" : [
+							"VV",
+							"VB"
+						],
+						"allowedTerrains" : [
+							"forest"
+						]
+					},
+					"forLanBir02" : {
+						"animation" : "forest/decorations/trees/forLanBir02.def",
+						"mask" : [
+							"VV",
+							"VB"
+						],
+						"allowedTerrains" : [
+							"forest"
+						]
+					},
+					"forLanBir03" : {
+						"animation" : "forest/decorations/trees/forLanBir03.def",
+						"mask" : [
+							"VV",
+							"VB"
+						],
+						"allowedTerrains" : [
+							"forest"
+						]
+					},
+					"forLanBir04" : {
+						"animation" : "forest/decorations/trees/forLanBir04.def",
+						"mask" : [
+							"VVVV",
+							"VVBB",
+							"VBBB",
+							"VBBV"
+						],
+						"allowedTerrains" : [
+							"forest"
+						]
+					},
+					"forLanBir05" : {
+						"animation" : "forest/decorations/trees/forLanBir05.def",
+						"mask" : [
+							"VVVV",
+							"VBBV",
+							"VBBB",
+							"VVBB"
+						],
+						"allowedTerrains" : [
+							"forest"
+						]
+					},
+					"forLanBir06" : {
+						"animation" : "forest/decorations/trees/forLanBir06.def",
+						"mask" : [
+							"VVVV",
+							"VVBB",
+							"VBBV"
+						],
+						"allowedTerrains" : [
+							"forest"
+						]
+					},
+					"forLanBir07" : {
+						"animation" : "forest/decorations/trees/forLanBir07.def",
+						"mask" : [
+							"VVVV",
+							"VVBB",
+							"VBBV"
+						],
+						"allowedTerrains" : [
+							"forest"
+						]
+					},
+					"forLanBir08" : {
+						"animation" : "forest/decorations/trees/forLanBir08.def",
+						"mask" : [
+							"VVVV",
+							"VBBV",
+							"VVBB"
+						],
+						"allowedTerrains" : [
+							"forest"
+						]
+					},
+					"forLanBir09" : {
+						"animation" : "forest/decorations/trees/forLanBir09.def",
+						"mask" : [
+							"VVVV",
+							"VBBV",
+							"VVBB"
+						],
+						"allowedTerrains" : [
+							"forest"
+						]
+					},
+					"forLanBir10" : {
+						"animation" : "forest/decorations/trees/forLanBir10.def",
+						"mask" : [
+							"VV",
+							"VB"
+						],
+						"allowedTerrains" : [
+							"forest"
+						]
+					},
+					"forLanBir11" : {
+						"animation" : "forest/decorations/trees/forLanBir11.def",
+						"mask" : [
+							"VV",
+							"VB"
+						],
+						"allowedTerrains" : [
+							"forest"
+						]
+					},
+					"forLanBir12" : {
+						"animation" : "forest/decorations/trees/forLanBir12.def",
+						"mask" : [
+							"VVV",
+							"VBV",
+							"VBV"
+						],
+						"allowedTerrains" : [
+							"forest"
+						]
+					},
+					"forLanBir13" : {
+						"animation" : "forest/decorations/trees/forLanBir13.def",
+						"mask" : [
+							"VVV",
+							"VBV",
+							"VBV"
+						],
+						"allowedTerrains" : [
+							"forest"
+						]
+					}
+				}
+			}
+		}
+	}
+}

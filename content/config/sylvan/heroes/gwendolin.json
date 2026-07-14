@@ -1,0 +1,51 @@
+{
+	"gwendolin" : {
+		"class" : "pathfinder",
+		"female" : true,
+		"texts" : {
+			"name" : "Gwendolin",
+			"biography" : "Gwendolin is certain that survival depends not on luck, but on preparation. She is a master of armor, both forged and worn, and every blow against her troops meets resilience instead of ruin. Under her command, even the light gear of the Sylvan Alliance seems to turn strikes aside.",
+			"specialty" : {
+				"description" : "{Armorer}\n\nReceives a 5% per level bonus to the Armorer skill.",
+				"tooltip" : "Secondary skill bonus: Armorer",
+				"name" : "Armorer"
+			}
+		},
+		"images" : {
+			"specialtySmall" : "sylvan/heroes/gwendolin/spec-small.png",
+			"specialtyLarge" : "sylvan/heroes/gwendolin/spec-large.png",
+			"large" : "sylvan/heroes/gwendolin/portrait-large.png",
+			"small" : "sylvan/heroes/gwendolin/portrait-small.png"
+		},
+		"army" : [
+			{
+				"creature" : "evlv1",
+				"min" : 10,
+				"max" : 15
+			},
+			{
+				"creature" : "evlv2",
+				"min" : 6,
+				"max" : 9
+			},
+			{
+				"creature" : "evlv3",
+				"min" : 4,
+				"max" : 6
+			}
+		],
+		"skills" : [
+			{
+				"skill" : "leadership",
+				"level" : "basic"
+			},
+			{
+				"skill" : "armorer",
+				"level" : "basic"
+			}
+		],
+		"specialty" : {
+			"secondary" : "armorer"
+		}
+	}
+}

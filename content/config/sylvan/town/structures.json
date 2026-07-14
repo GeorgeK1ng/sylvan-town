@@ -1,0 +1,300 @@
+{
+	"sylvan" : {
+		"town" : {
+			"structures" : {
+				"water" : {
+					"animation" : "sylvan/town-screen/buildings/water.def",
+					"x" : 0,
+					"y" : 0,
+					"z" : 0
+				},
+				"mageGuild1" : {
+					"animation" : "sylvan/town-screen/buildings/TBRMMAGE.def",
+					"x" : 0,
+					"y" : 0,
+					"z" : -1,
+					"border" : "sylvan/town-screen/buildings-border/TORMAG1.png",
+					"area" : "sylvan/town-screen/buildings-area/TZRMAG1.png"
+				},
+				"mageGuild2" : {
+					"animation" : "sylvan/town-screen/buildings/TBRMMAG2.def",
+					"x" : 0,
+					"y" : 0,
+					"z" : -1,
+					"border" : "sylvan/town-screen/buildings-border/TORMAG2.png",
+					"area" : "sylvan/town-screen/buildings-area/TZRMAG2.png"
+				},
+				"mageGuild3" : {
+					"animation" : "sylvan/town-screen/buildings/TBRMMAG3.def",
+					"x" : 0,
+					"y" : 0,
+					"z" : -1,
+					"border" : "sylvan/town-screen/buildings-border/TORMAG3.png",
+					"area" : "sylvan/town-screen/buildings-area/TZRMAG3.png"
+				},
+				"mageGuild4" : {
+					"animation" : "sylvan/town-screen/buildings/TBRMMAG4.def",
+					"x" : 0,
+					"y" : 0,
+					"z" : -1,
+					"border" : "sylvan/town-screen/buildings-border/TORMAG4.png",
+					"area" : "sylvan/town-screen/buildings-area/TZRMAG4.png"
+				},
+				"mageGuild5" : {
+					"animation" : "sylvan/town-screen/buildings/TBRMMAG5.def",
+					"x" : 0,
+					"y" : 0,
+					"z" : -1,
+					"border" : "sylvan/town-screen/buildings-border/TORMAG5.png",
+					"area" : "sylvan/town-screen/buildings-area/TZRMAG5.png"
+				},
+				"tavern" : {
+					"animation" : "sylvan/town-screen/buildings/TBRMTVRN.def",
+					"x" : 0,
+					"y" : 0,
+					"z" : 5,
+					"border" : "sylvan/town-screen/buildings-border/TORTAV.png",
+					"area" : "sylvan/town-screen/buildings-area/TZRTAV.png"
+				},
+				"fort" : {
+					"animation" : "sylvan/town-screen/buildings/TBRMCSTL.def",
+					"x" : 0,
+					"y" : 0,
+					"z" : -3,
+					"border" : "sylvan/town-screen/buildings-border/TORCAS1.png",
+					"area" : "sylvan/town-screen/buildings-area/TZRCAS1.png"
+				},
+				"citadel" : {
+					"animation" : "sylvan/town-screen/buildings/TBRMCAS2.def",
+					"x" : 0,
+					"y" : 0,
+					"z" : -3,
+					"border" : "sylvan/town-screen/buildings-border/TORCAS3.png",
+					"area" : "sylvan/town-screen/buildings-area/TZRCAS3.png"
+				},
+				"castle" : {
+					"animation" : "sylvan/town-screen/buildings/TBRMCAS3.def",
+					"x" : 0,
+					"y" : 0,
+					"z" : -3,
+					"border" : "sylvan/town-screen/buildings-border/TORCAS2.png",
+					"area" : "sylvan/town-screen/buildings-area/TZRCAS2.png"
+				},
+				"villageHall" : {
+					"animation" : "sylvan/town-screen/buildings/TBRMHALL.def",
+					"x" : 0,
+					"y" : 0,
+					"border" : "sylvan/town-screen/buildings-border/TORHAL1.png",
+					"area" : "sylvan/town-screen/buildings-area/TZRHAL1.png"
+				},
+				"townHall" : {
+					"animation" : "sylvan/town-screen/buildings/TBRMHAL2.def",
+					"x" : 0,
+					"y" : 0,
+					"border" : "sylvan/town-screen/buildings-border/TORHAL2.png",
+					"area" : "sylvan/town-screen/buildings-area/TZRHAL2.png"
+				},
+				"cityHall" : {
+					"animation" : "sylvan/town-screen/buildings/TBRMHAL3.def",
+					"x" : 0,
+					"y" : 0,
+					"border" : "sylvan/town-screen/buildings-border/TORHAL3.png",
+					"area" : "sylvan/town-screen/buildings-area/TZRHAL3.png"
+				},
+				"capitol" : {
+					"animation" : "sylvan/town-screen/buildings/TBRMHAL4.def",
+					"x" : 0,
+					"y" : 0,
+					"border" : "sylvan/town-screen/buildings-border/TORHAL4.png",
+					"area" : "sylvan/town-screen/buildings-area/TZRHAL4.png"
+				},
+				"marketplace" : {
+					"animation" : "sylvan/town-screen/buildings/TBRMMARK.def",
+					"x" : 0,
+					"y" : 0,
+					"z" : 0,
+					"border" : "sylvan/town-screen/buildings-border/TORMRK1.png",
+					"area" : "sylvan/town-screen/buildings-area/TZRMRK1.png"
+				},
+				"resourceSilo" : {
+					"animation" : "sylvan/town-screen/buildings/TBRMSILO.def",
+					"x" : 0,
+					"y" : 0,
+					"z" : 1,
+					"border" : "sylvan/town-screen/buildings-border/TORMRK2.png",
+					"area" : "sylvan/town-screen/buildings-area/TZRMRK2.png"
+				},
+				"blacksmith" : {
+					"animation" : "sylvan/town-screen/buildings/TBRMBLAK.def",
+					"x" : 0,
+					"y" : 0,
+					"z" : 0,
+					"border" : "sylvan/town-screen/buildings-border/TORAID.png",
+					"area" : "sylvan/town-screen/buildings-area/TZRAID.png"
+				},
+				"horde1" : {
+					"animation" : "sylvan/town-screen/buildings/TBRMEXT5.def",
+					"x" : 0,
+					"y" : 0,
+					"z" : 5,
+					"border" : "sylvan/town-screen/buildings-border/TORGAR4A.png",
+					"area" : "sylvan/town-screen/buildings-area/TZRGAR4A.png"
+				},
+				"horde2" : {
+					"animation" : "sylvan/town-screen/buildings/spec.def",
+					"x" : 0,
+					"y" : 0,
+					"z" : 4,
+					"border" : "sylvan/town-screen/buildings-border/TORGAR3A.png",
+					"area" : "sylvan/town-screen/buildings-area/TZRGAR3A.png"
+				},
+				"special1" : {
+					"animation" : "sylvan/town-screen/buildings/TBRMEXT1.def",
+					"x" : 0,
+					"y" : 0,
+					"border" : "sylvan/town-screen/buildings-border/TORXT5.png",
+					"area" : "sylvan/town-screen/buildings-area/TZT5.png"
+				},
+				"special2" : {
+					"animation" : "sylvan/town-screen/buildings/spec2.def",
+					"x" : 0,
+					"y" : 0,
+					"z" : -4,
+					"border" : "sylvan/town-screen/buildings-border/sp2A.png",
+					"area" : "sylvan/town-screen/buildings-area/sp2b.png"
+				},
+				"grail" : {
+					"animation" : "sylvan/town-screen/buildings/TBRMUP_5.def",
+					"x" : 0,
+					"y" : 0,
+					"z" : 1,
+					"border" : "sylvan/town-screen/buildings-border/TORUNI1.png",
+					"area" : "sylvan/town-screen/buildings-area/TZRUNI1.png"
+				},
+				"special4" : {
+					"animation" : "sylvan/town-screen/buildings/spec4.def",
+					"x" : 0,
+					"y" : 0,
+					"z" : 4,
+					"border" : "sylvan/town-screen/buildings-border/sp4A.png",
+					"area" : "sylvan/town-screen/buildings-area/sp4b.png"
+				},
+				"special3" : {
+					"animation" : "sylvan/town-screen/buildings/TBRMHOLY.def",
+					"x" : 0,
+					"y" : 0,
+					"z" : 4,
+					"border" : "sylvan/town-screen/buildings-border/TORHOLY.png",
+					"area" : "sylvan/town-screen/buildings-area/TZRHOLY.png"
+				},
+				"dwellingLvl1" : {
+					"animation" : "sylvan/town-screen/buildings/TBRMDW_0.def",
+					"x" : 0,
+					"y" : 0,
+					"z" : 0,
+					"border" : "sylvan/town-screen/buildings-border/TORCEN1A.png",
+					"area" : "sylvan/town-screen/buildings-area/TZRCEN1A.png"
+				},
+				"dwellingLvl2" : {
+					"animation" : "sylvan/town-screen/buildings/TBRMDW_1.def",
+					"x" : 0,
+					"y" : 0,
+					"border" : "sylvan/town-screen/buildings-border/TORDWF1.png",
+					"area" : "sylvan/town-screen/buildings-area/TZRDWF1.png"
+				},
+				"dwellingLvl3" : {
+					"animation" : "sylvan/town-screen/buildings/TBRMDW_2.def",
+					"x" : 0,
+					"y" : 0,
+					"border" : "sylvan/town-screen/buildings-border/TORELF1.png",
+					"area" : "sylvan/town-screen/buildings-area/TZRELF1.png"
+				},
+				"dwellingLvl4" : {
+					"animation" : "sylvan/town-screen/buildings/TBRMDW_4.def",
+					"x" : 0,
+					"y" : 0,
+					"z" : 4,
+					"border" : "sylvan/town-screen/buildings-border/TORTRE1H.png",
+					"area" : "sylvan/town-screen/buildings-area/TZRTRE1H.png"
+				},
+				"dwellingLvl5" : {
+					"animation" : "sylvan/town-screen/buildings/TBRMUP_3.def",
+					"x" : 0,
+					"y" : 0,
+					"z" : 1,
+					"border" : "sylvan/town-screen/buildings-border/TORPEG2A.png",
+					"area" : "sylvan/town-screen/buildings-area/TZRPEG2A.png"
+				},
+				"dwellingLvl6" : {
+					"animation" : "sylvan/town-screen/buildings/TBRMSPEC.def",
+					"x" : 0,
+					"y" : 0,
+					"border" : "sylvan/town-screen/buildings-border/TORGAR1A.png",
+					"area" : "sylvan/town-screen/buildings-area/TZRGAR1A.png"
+				},
+				"dwellingLvl7" : {
+					"animation" : "sylvan/town-screen/buildings/TBRMDW_6.def",
+					"x" : 0,
+					"y" : 0,
+					"z" : 0,
+					"border" : "sylvan/town-screen/buildings-border/TORDR1AA.png",
+					"area" : "sylvan/town-screen/buildings-area/TZRDR1AA.png"
+				},
+				"dwellingUpLvl1" : {
+					"animation" : "sylvan/town-screen/buildings/TBRMUP_0.def",
+					"x" : 0,
+					"y" : 0,
+					"z" : 0,
+					"border" : "sylvan/town-screen/buildings-border/TORCEN2A.png",
+					"area" : "sylvan/town-screen/buildings-area/TZRCEN2A.png"
+				},
+				"dwellingUpLvl2" : {
+					"animation" : "sylvan/town-screen/buildings/TBRMUP_1.def",
+					"x" : 0,
+					"y" : 0,
+					"border" : "sylvan/town-screen/buildings-border/TORDWF2.png",
+					"area" : "sylvan/town-screen/buildings-area/TZRDWF2.png"
+				},
+				"dwellingUpLvl3" : {
+					"animation" : "sylvan/town-screen/buildings/TBRMUP_2.def",
+					"x" : 0,
+					"y" : 0,
+					"border" : "sylvan/town-screen/buildings-border/TORELF2.png",
+					"area" : "sylvan/town-screen/buildings-area/TZRELF2.png"
+				},
+				"dwellingUpLvl4" : {
+					"animation" : "sylvan/town-screen/buildings/TBRMUP_4.def",
+					"x" : 0,
+					"y" : 0,
+					"z" : 4,
+					"border" : "sylvan/town-screen/buildings-border/TORTRE2H.png",
+					"area" : "sylvan/town-screen/buildings-area/TZRTRE2H.png"
+				},
+				"dwellingUpLvl5" : {
+					"animation" : "sylvan/town-screen/buildings/TBRMUP_3.def",
+					"x" : 0,
+					"y" : 0,
+					"z" : 1,
+					"border" : "sylvan/town-screen/buildings-border/TORPEG2A.png",
+					"area" : "sylvan/town-screen/buildings-area/TZRPEG2A.png"
+				},
+				"dwellingUpLvl6" : {
+					"animation" : "sylvan/town-screen/buildings/TBRMEXT0.def",
+					"x" : 0,
+					"y" : 0,
+					"z" : 2,
+					"border" : "sylvan/town-screen/buildings-border/TORGAR2A.png",
+					"area" : "sylvan/town-screen/buildings-area/TZRGAR2A.png"
+				},
+				"dwellingUpLvl7" : {
+					"animation" : "sylvan/town-screen/buildings/TBRMUP_6.def",
+					"x" : 0,
+					"y" : 0,
+					"z" : 0,
+					"border" : "sylvan/town-screen/buildings-border/TORDR2AA.png",
+					"area" : "sylvan/town-screen/buildings-area/TZRDR2AA.png"
+				}
+			}
+		}
+	}
+}

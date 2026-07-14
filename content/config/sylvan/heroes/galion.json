@@ -1,0 +1,60 @@
+{
+	"galion" : {
+		"class" : "pathfinder",
+		"female" : false,
+		"texts" : {
+			"name" : "Galion",
+			"biography" : "Galion carries a quiet confidence, as though fate itself leans slightly in his favor. In battle, his magic weaves fine threads of fortune through his allies, turning misses into true strikes and desperate positions into sudden victories. He claims it is not luck, but harmony with the world's natural flow; few argue after seeing it.",
+			"specialty" : {
+				"description" : "Spell bonus: Fortune. The hero casts this spell with increased effect.",
+				"tooltip" : "Spell bonus: Fortune",
+				"name" : "Fortune"
+			}
+		},
+		"images" : {
+			"specialtySmall" : "sylvan/heroes/galion/spec-small.png",
+			"specialtyLarge" : "sylvan/heroes/galion/spec-large.png",
+			"large" : "sylvan/heroes/galion/portrait-large.png",
+			"small" : "sylvan/heroes/galion/portrait-small.png"
+		},
+		"spellbook" : [
+			"fortune"
+		],
+		"army" : [
+			{
+				"creature" : "evlv1",
+				"min" : 10,
+				"max" : 15
+			},
+			{
+				"creature" : "evlv2",
+				"min" : 6,
+				"max" : 9
+			},
+			{
+				"creature" : "evlv3",
+				"min" : 4,
+				"max" : 6
+			}
+		],
+		"skills" : [
+			{
+				"skill" : "wisdom",
+				"level" : "basic"
+			},
+			{
+				"skill" : "luck",
+				"level" : "basic"
+			}
+		],
+		"specialty" : {
+			"bonuses" : {
+				"fortune" : {
+					"addInfo" : 3,
+					"subtype" : "spell.fortune",
+					"type" : "SPECIAL_FIXED_VALUE_ENCHANT"
+				}
+			}
+		}
+	}
+}

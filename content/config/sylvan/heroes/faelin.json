@@ -1,0 +1,54 @@
+{
+	"faelin" : {
+		"class" : "pathfinder",
+		"female" : true,
+		"texts" : {
+			"name" : "Faelin",
+			"biography" : "Faelin moves to a rhythm heard only by the smallest spirits of the forest. Wherever she goes, glittering flocks of Fairies and Sylvan Fairies gather around her, their playfulness turning into a dangerous weapon. Under her command they become swifter, more precise and unexpectedly deadly. Many see them as harmless lights in the thicket, until Faelin turns their dance into a storm.",
+			"specialty" : {
+				"description" : "{Fairies and Sylvan Fairies}\n\nIncreases the Speed of Fairies and Sylvan Fairies by 1, and their Attack and Defense by 5% for every 2 hero levels (rounded up).",
+				"tooltip" : "Creature bonus: Fairies",
+				"name" : "Fairies"
+			}
+		},
+		"images" : {
+			"specialtySmall" : "sylvan/heroes/faelin/spec-small.png",
+			"specialtyLarge" : "sylvan/heroes/faelin/spec-large.png",
+			"large" : "sylvan/heroes/faelin/portrait-large.png",
+			"small" : "sylvan/heroes/faelin/portrait-small.png"
+		},
+		"spellbook" : [
+			"haste"
+		],
+		"army" : [
+			{
+				"creature" : "evlv1",
+				"min" : 10,
+				"max" : 15
+			},
+			{
+				"creature" : "evlv2",
+				"min" : 6,
+				"max" : 9
+			},
+			{
+				"creature" : "evlv3",
+				"min" : 4,
+				"max" : 6
+			}
+		],
+		"skills" : [
+			{
+				"level" : "basic",
+				"skill" : "resistance"
+			},
+			{
+				"level" : "basic",
+				"skill" : "armorer"
+			}
+		],
+		"specialty" : {
+			"creature" : "evlv1"
+		}
+	}
+}

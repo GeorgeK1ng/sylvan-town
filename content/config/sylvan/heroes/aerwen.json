@@ -1,0 +1,61 @@
+{
+	"aerwen" : {
+		"class" : "herbalist",
+		"female" : true,
+		"texts" : {
+			"name" : "Aerwen",
+			"biography" : "Aerwen calmly walks the fine line between life and death, so calmly that it unsettles even her allies. Where others see fallen warriors, she sees only a brief pause in the forest's rhythm. With whispered ancient words and the touch of old magic, she returns the departed to life, though each such return carries a price only she is willing to pay. Some say Aerwen bargains with powers beyond the forest thickets, but she only smiles and reminds them: in nature, nothing disappears forever.",
+			"specialty" : {
+				"description" : "Spell bonus: Resurrection. The hero casts this spell with increased effect.",
+				"tooltip" : "Spell bonus: Resurrection",
+				"name" : "Resurrection"
+			}
+		},
+		"images" : {
+			"specialtySmall" : "sylvan/heroes/aerwen/spec-small.png",
+			"specialtyLarge" : "sylvan/heroes/aerwen/spec-large.png",
+			"large" : "sylvan/heroes/aerwen/portrait-large.png",
+			"small" : "sylvan/heroes/aerwen/portrait-small.png"
+		},
+		"spellbook" : [
+			"resurrection"
+		],
+		"army" : [
+			{
+				"creature" : "evlv1",
+				"min" : 10,
+				"max" : 15
+			},
+			{
+				"creature" : "evlv2",
+				"min" : 6,
+				"max" : 9
+			},
+			{
+				"creature" : "evlv3",
+				"min" : 4,
+				"max" : 6
+			}
+		],
+		"skills" : [
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			},
+			{
+				"level" : "basic",
+				"skill" : "earthMagic"
+			}
+		],
+		"specialty" : {
+			"bonuses" : {
+				"resurrection" : {
+					"subtype" : "spell.resurrection",
+					"type" : "SPECIAL_SPELL_LEV",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 3
+				}
+			}
+		}
+	}
+}

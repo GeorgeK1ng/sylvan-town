@@ -1,0 +1,51 @@
+{
+	"mirthanë" : {
+		"class" : "pathfinder",
+		"female" : true,
+		"texts" : {
+			"name" : "Mirthanë",
+			"biography" : "Mirthanë is a rare bridge between grace and might, leading sacred priestesses and mighty giants with equal confidence. Her presence brings harmony to forces almost impossible to unite: priestesses act with greater precision, while giants unexpectedly gain swiftness. With every season, her bond with these ancient allies grows stronger.",
+			"specialty" : {
+				"description" : "{Mountain Giants and Ancient Giants}\n\nIncreases the Speed of Mountain Giants and Ancient Giants by 1, and their Attack and Defense by 5% for every 7 hero levels (rounded up).",
+				"tooltip" : "Creature bonus: Mountain Giants",
+				"name" : "Mountain Giants"
+			}
+		},
+		"images" : {
+			"specialtySmall" : "sylvan/heroes/mirthan#U00eb/spec-small.png",
+			"specialtyLarge" : "sylvan/heroes/mirthan#U00eb/spec-large.png",
+			"large" : "sylvan/heroes/mirthan#U00eb/portrait-large.png",
+			"small" : "sylvan/heroes/mirthan#U00eb/portrait-small.png"
+		},
+		"army" : [
+			{
+				"creature" : "evlv1",
+				"min" : 10,
+				"max" : 15
+			},
+			{
+				"creature" : "evlv2",
+				"min" : 6,
+				"max" : 9
+			},
+			{
+				"creature" : "evlv3",
+				"min" : 4,
+				"max" : 6
+			}
+		],
+		"skills" : [
+			{
+				"level" : "basic",
+				"skill" : "offence"
+			},
+			{
+				"level" : "basic",
+				"skill" : "resistance"
+			}
+		],
+		"specialty" : {
+			"creature" : "evlv7"
+		}
+	}
+}

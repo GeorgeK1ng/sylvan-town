@@ -1,0 +1,61 @@
+{
+	"evlv7" : {
+		"name" : {
+			"plural" : "Mountain Giants",
+			"singular" : "Mountain Giant"
+		},
+		"advMapAmount" : {
+			"max" : 10,
+			"min" : 4
+		},
+		"faction" : "sylvan",
+		"aiValue" : 3683,
+		"attack" : 20,
+		"cost" : {
+			"gold" : 2000
+		},
+		"damage" : {
+			"max" : 50,
+			"min" : 35
+		},
+		"defense" : 21,
+		"fightValue" : 3001,
+		"graphics" : {
+			"animation" : "sylvan/battle/lv7.DEF",
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 10,
+				"walk" : 1
+			},
+			"map" : "sylvan/map/lv7.def",
+			"iconSmall" : "sylvan/iconsSmall/lv7.png",
+			"iconLarge" : "sylvan/iconsBig/lv7.png",
+			"timeBetweenFidgets" : 1
+		},
+		"doubleWide" : true,
+		"growth" : 1,
+		"hitPoints" : 200,
+		"level" : 7,
+		"upgrades" : [
+			"evlv7up"
+		],
+		"sound" : {
+			"attack" : "YBMHATTK.wav",
+			"defend" : "YBMHDFND.wav",
+			"killed" : "YBMHKILL.wav",
+			"move" : "YBMHMOVE.wav",
+			"wince" : "YBMHWNCE.wav"
+		},
+		"speed" : 8,
+		"abilities" : {
+			"nonliving" : {
+				"type" : "NON_LIVING"
+			},
+			"magicResistance" : {
+				"type" : "SPELL_DAMAGE_REDUCTION",
+				"subtype" : "spellSchool.any",
+				"val" : 50
+			}
+		}
+	}
+}

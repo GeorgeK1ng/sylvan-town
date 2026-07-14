@@ -1,0 +1,67 @@
+{
+	"evlv4" : {
+		"name" : {
+			"plural" : "Dryads",
+			"singular" : "Dryad"
+		},
+		"advMapAmount" : {
+			"max" : 16,
+			"min" : 8
+		},
+		"faction" : "sylvan",
+		"aiValue" : 479,
+		"attack" : 8,
+		"cost" : {
+			"gold" : 300
+		},
+		"damage" : {
+			"max" : 9,
+			"min" : 7
+		},
+		"defense" : 12,
+		"fightValue" : 469,
+		"horde" : 3,
+		"graphics" : {
+			"animation" : "sylvan/battle/lv4.def",
+			"map" : "sylvan/map/lv4.def",
+			"iconSmall" : "sylvan/iconsSmall/lv4.png",
+			"iconLarge" : "sylvan/iconsBig/lv4.png",
+			"timeBetweenFidgets" : 1,
+			"animationTime" : {
+				"walk" : 1.25,
+				"attack" : 1,
+				"idle" : 10
+			}
+		},
+		"growth" : 5,
+		"hitPoints" : 35,
+		"level" : 4,
+		"upgrades" : [
+			"evlv4up"
+		],
+		"sound" : {
+			"attack" : "DFLYATTK.wav",
+			"defend" : "DFLYDFND.wav",
+			"killed" : "DFLYKILL.wav",
+			"move" : "DFLYMOVE.wav",
+			"wince" : "DFLYWNCE.wav"
+		},
+		"speed" : 6,
+		"abilities" : {
+			"flies" : {
+				"type" : "FLYING",
+				"subtype" : "movementFlying"
+			},
+			"binds" : {
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.bind",
+				"val" : 25,
+				"addInfo" : [
+					1,
+					2
+				]
+			}
+		},
+		"description" : "{Entangling}\n\nAfter attacking, has a 25% chance to cast Bind on the target."
+	}
+}

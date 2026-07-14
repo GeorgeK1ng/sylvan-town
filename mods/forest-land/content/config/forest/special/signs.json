@@ -1,0 +1,24 @@
+{
+	"core:sign" : {
+		"types" : {
+			"object" : {
+				"templates" : {
+					"forestsign" : {
+						"animation" : "forest/special/sign/avxsnhl",
+						"allowedTerrains" : [
+							"forest"
+						],
+						"mask" : [
+							"A"
+						],
+						"visitableFrom" : [
+							"---",
+							"+++",
+							"+++"
+						]
+					}
+				}
+			}
+		}
+	}
+}

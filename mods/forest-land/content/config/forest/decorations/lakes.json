@@ -1,0 +1,40 @@
+{
+	"core:lake" : {
+		"types" : {
+			"object" : {
+				"templates" : {
+					"junLanLak00" : {
+						"animation" : "forest/decorations/lakes/junLanLak00",
+						"mask" : [
+							"VBBBBVV",
+							"VBBBBBV",
+							"VVBBBBV"
+						],
+						"allowedTerrains" : [
+							"forest"
+						]
+					},
+					"junLanLak01" : {
+						"animation" : "forest/decorations/lakes/junLanLak01",
+						"mask" : [
+							"VBBB",
+							"VBBB"
+						],
+						"allowedTerrains" : [
+							"forest"
+						]
+					},
+					"junLanLak02" : {
+						"animation" : "forest/decorations/lakes/junLanLak02",
+						"mask" : [
+							"BBB"
+						],
+						"allowedTerrains" : [
+							"forest"
+						]
+					}
+				}
+			}
+		}
+	}
+}

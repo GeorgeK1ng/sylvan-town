@@ -1,0 +1,62 @@
+{
+	"evlv7up" : {
+		"name" : {
+			"plural" : "Ancient Giants",
+			"singular" : "Ancient Giant"
+		},
+		"advMapAmount" : {
+			"max" : 8,
+			"min" : 3
+		},
+		"faction" : "sylvan",
+		"aiValue" : 8800,
+		"attack" : 23,
+		"cost" : {
+			"gold" : 3500,
+			"crystal" : 2
+		},
+		"damage" : {
+			"max" : 50,
+			"min" : 35
+		},
+		"defense" : 24,
+		"fightValue" : 6100,
+		"graphics" : {
+			"animation" : "sylvan/battle/lv7up.def",
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 10,
+				"walk" : 1
+			},
+			"map" : "sylvan/map/lv7up.def",
+			"iconSmall" : "sylvan/iconsSmall/lv7up.png",
+			"iconLarge" : "sylvan/iconsBig/lv7up.png",
+			"timeBetweenFidgets" : 1
+		},
+		"doubleWide" : true,
+		"growth" : 1,
+		"hitPoints" : 220,
+		"level" : 7,
+		"sound" : {
+			"attack" : "YBMHATTK.wav",
+			"defend" : "YBMHDFND.wav",
+			"killed" : "YBMHKILL.wav",
+			"move" : "YBMHMOVE.wav",
+			"wince" : "YBMHWNCE.wav"
+		},
+		"speed" : 13,
+		"abilities" : {
+			"nonliving" : {
+				"type" : "NON_LIVING"
+			},
+			"magicResistance" : {
+				"type" : "SPELL_DAMAGE_REDUCTION",
+				"subtype" : "spellSchool.any",
+				"val" : 50
+			},
+			"firstStrike" : {
+				"type" : "FIRST_STRIKE"
+			}
+		}
+	}
+}

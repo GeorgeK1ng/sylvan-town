@@ -1,0 +1,26 @@
+{
+	"core:hillFort" : {
+		"types" : {
+			"object" : {
+				"templates" : {
+					"forestHillFort" : {
+						"animation" : "forest/objects/hillfort/AVXhiljun",
+						"visitableFrom" : [
+							"---",
+							"-+-",
+							"+++"
+						],
+						"mask" : [
+							"VVV",
+							"VVV",
+							"VBA"
+						],
+						"allowedTerrains" : [
+							"forest"
+						]
+					}
+				}
+			}
+		}
+	}
+}

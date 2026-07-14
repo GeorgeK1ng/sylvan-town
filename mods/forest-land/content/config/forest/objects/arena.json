@@ -1,0 +1,26 @@
+{
+	"core:arena" : {
+		"types" : {
+			"arena" : {
+				"templates" : {
+					"forest" : {
+						"animation" : "forest/objects/arena/forestArena",
+						"visitableFrom" : [
+							"---",
+							"-+-",
+							"+++"
+						],
+						"mask" : [
+							"VVV",
+							"BBB",
+							"BAB"
+						],
+						"allowedTerrains" : [
+							"forest"
+						]
+					}
+				}
+			}
+		}
+	}
+}

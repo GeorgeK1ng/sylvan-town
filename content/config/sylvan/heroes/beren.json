@@ -1,0 +1,60 @@
+{
+	"beren" : {
+		"class" : "herbalist",
+		"female" : false,
+		"texts" : {
+			"name" : "Beren",
+			"biography" : "While others of his people think of bow and branch, Beren long ago mastered the quiet power of gold. Careful trade, hidden agreements and a web of allies far beyond the forest keep coin flowing into the Sylvan Alliance's coffers. Some question his methods, but none can argue with the result: where Beren appears, prosperity soon follows.",
+			"specialty" : {
+				"description" : "Provides your kingdom with an additional 350 gold per day.",
+				"tooltip" : "{Gold}\n\nIncreases kingdom income by 350 gold per day.",
+				"name" : "+350 Gold"
+			}
+		},
+		"images" : {
+			"specialtySmall" : "sylvan/heroes/beren/spec-small.png",
+			"specialtyLarge" : "sylvan/heroes/beren/spec-large.png",
+			"large" : "sylvan/heroes/beren/portrait-large.png",
+			"small" : "sylvan/heroes/beren/portrait-small.png"
+		},
+		"spellbook" : [
+			"viewEarth"
+		],
+		"army" : [
+			{
+				"creature" : "evlv1",
+				"min" : 10,
+				"max" : 15
+			},
+			{
+				"creature" : "evlv2",
+				"min" : 6,
+				"max" : 9
+			},
+			{
+				"creature" : "evlv3",
+				"min" : 4,
+				"max" : 6
+			}
+		],
+		"skills" : [
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			},
+			{
+				"level" : "basic",
+				"skill" : "estates"
+			}
+		],
+		"specialty" : {
+			"bonuses" : {
+				"gold" : {
+					"subtype" : "resource.gold",
+					"type" : "GENERATE_RESOURCE",
+					"val" : 350
+				}
+			}
+		}
+	}
+}

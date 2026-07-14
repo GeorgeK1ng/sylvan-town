@@ -1,0 +1,51 @@
+{
+	"lindariel" : {
+		"class" : "pathfinder",
+		"female" : true,
+		"texts" : {
+			"name" : "Lindariel",
+			"biography" : "Lindariel is the unbending will of the forest where shield meets steel and none shall pass. Under her command, Forest Defenders and Forest Wardens grow ever more steadfast, their discipline hardening with every battle. She teaches not with words, but by example: remain unbroken, vigilant and always ready.",
+			"specialty" : {
+				"description" : "{Forest Defenders and Forest Wardens}\n\nIncreases the Attack and Defense of Forest Defenders and Forest Wardens for each level after 6.",
+				"tooltip" : "Creature bonus: Forest Defenders",
+				"name" : "Forest Defenders"
+			}
+		},
+		"images" : {
+			"specialtySmall" : "sylvan/heroes/lindariel/spec-small.png",
+			"specialtyLarge" : "sylvan/heroes/lindariel/spec-large.png",
+			"large" : "sylvan/heroes/lindariel/portrait-large.png",
+			"small" : "sylvan/heroes/lindariel/portrait-small.png"
+		},
+		"army" : [
+			{
+				"creature" : "evlv1",
+				"min" : 10,
+				"max" : 15
+			},
+			{
+				"creature" : "evlv2",
+				"min" : 6,
+				"max" : 9
+			},
+			{
+				"creature" : "evlv3",
+				"min" : 4,
+				"max" : 6
+			}
+		],
+		"skills" : [
+			{
+				"skill" : "pathfinding",
+				"level" : "basic"
+			},
+			{
+				"skill" : "resistance",
+				"level" : "basic"
+			}
+		],
+		"specialty" : {
+			"creature" : "evlv6"
+		}
+	}
+}

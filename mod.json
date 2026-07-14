@@ -1,0 +1,93 @@
+{
+	"name" : "Sylvan",
+	"author" : "Zeryss, Acidchalk",
+	"contact" : "http://forum.vcmi.eu/index.php",
+	"version" : "1.1.1",
+	"modType" : "Town",
+	"compatibility" : {
+		"min" : "1.7.3"
+	},
+	"changelog" : {
+		"1.1.1" : [
+			"Added Czech translation by George King",
+			"Added biomes config",
+			"Added missing shrubs.json",
+			"Added new description",
+			"Fixed Wake of Gods config conflict",
+			"Fixed townscreen palette recolor issue",
+			"Fixed creatures small icons background",
+			"Converted BMPs to PNGs"
+		],
+		"1.1.0" : [
+			"Translated mod into English"
+		],
+		"1.0.0" : [
+			"Initial release"
+		]
+	},
+	"czech" : {
+		"name" : "Hvozd",
+		"translations" : [
+			"translation/czech.json"
+		]
+	},
+	"russian" : {
+		"name" : "Лесной Союз",
+		"translations" : [
+			"translation/russian.json"
+		]
+	},
+	"factions" : [
+		"config/sylvan/town/buildings.json",
+		"config/sylvan/town/faction.json",
+		"config/sylvan/town/siege.json",
+		"config/sylvan/town/spells.json",
+		"config/sylvan/town/structures.json",
+		"config/sylvan/town/puzzle.json"
+	],
+	"skills" : [
+		"config/sylvan/skills/distortions.json"
+	],
+	"creatures" : [
+		"config/sylvan/creatures/lv1.json",
+		"config/sylvan/creatures/lv1up.json",
+		"config/sylvan/creatures/lv2.json",
+		"config/sylvan/creatures/lv2up.json",
+		"config/sylvan/creatures/lv3.json",
+		"config/sylvan/creatures/lv3up.json",
+		"config/sylvan/creatures/lv4.json",
+		"config/sylvan/creatures/lv4up.json",
+		"config/sylvan/creatures/lv5.json",
+		"config/sylvan/creatures/lv5up.json",
+		"config/sylvan/creatures/lv6.json",
+		"config/sylvan/creatures/lv6up.json",
+		"config/sylvan/creatures/lv7.json",
+		"config/sylvan/creatures/lv7up.json",
+		"config/sylvan/creatures/Spriggan.json"
+	],
+	"heroClasses" : [
+		"config/sylvan/classes/pathfinder.json",
+		"config/sylvan/classes/herbalist.json"
+	],
+	"heroes" : [
+		"config/sylvan/heroes/aerwen.json",
+		"config/sylvan/heroes/alatar.json",
+		"config/sylvan/heroes/beren.json",
+		"config/sylvan/heroes/faelin.json",
+		"config/sylvan/heroes/forlong.json",
+		"config/sylvan/heroes/galion.json",
+		"config/sylvan/heroes/gwendolin.json",
+		"config/sylvan/heroes/liminel.json",
+		"config/sylvan/heroes/lindariel.json",
+		"config/sylvan/heroes/merenwen.json",
+		"config/sylvan/heroes/mirthan#U00eb.json",
+		"config/sylvan/heroes/orianna.json",
+		"config/sylvan/heroes/rumil.json",
+		"config/sylvan/heroes/silvanne.json",
+		"config/sylvan/heroes/thranduil.json",
+		"config/sylvan/heroes/tindomiel.json"
+	],
+	"objects" : [
+		"config/sylvan/dwellings.json"
+	]
+}

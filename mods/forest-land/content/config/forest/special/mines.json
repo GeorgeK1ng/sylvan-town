@@ -1,0 +1,141 @@
+{
+	"core:mine" : {
+		"types" : {
+			"sawmill" : {
+				"templates" : {
+					"forestSawmill01" : {
+						"animation" : "forest/special/mines/forLanSaw",
+						"visitableFrom" : [
+							"---",
+							"-+-",
+							"+++"
+						],
+						"mask" : [
+							"VVVVV",
+							"VBBBB",
+							"VBBAB"
+						],
+						"allowedTerrains" : [
+							"forest"
+						]
+					}
+				}
+			},
+			"alchemistLab" : {
+				"templates" : {
+					"forestLab01" : {
+						"animation" : "forest/special/mines/forLanAlcLab",
+						"visitableFrom" : [
+							"---",
+							"-+-",
+							"+++"
+						],
+						"mask" : [
+							"VVV",
+							"VVV",
+							"BAB"
+						],
+						"allowedTerrains" : [
+							"forest"
+						]
+					}
+				}
+			},
+			"orePit" : {
+				"templates" : {
+					"forestOre01" : {
+						"animation" : "forest/special/mines/forLanOrePit",
+						"visitableFrom" : [
+							"---",
+							"-+-",
+							"+++"
+						],
+						"mask" : [
+							"BBB",
+							"BAB"
+						],
+						"allowedTerrains" : [
+							"forest"
+						]
+					}
+				}
+			},
+			"sulfurDune" : {
+				"templates" : {
+					"forestSulfurDune01" : {
+						"animation" : "forest/special/mines/forLanSulDun",
+						"visitableFrom" : [
+							"---",
+							"-+-",
+							"+++"
+						],
+						"mask" : [
+							"VVV",
+							"BAB"
+						],
+						"allowedTerrains" : [
+							"forest"
+						]
+					}
+				}
+			},
+			"crystalCavern" : {
+				"templates" : {
+					"forestCrystalCavern01" : {
+						"animation" : "forest/special/mines/forLanCryCav",
+						"visitableFrom" : [
+							"---",
+							"-+-",
+							"+++"
+						],
+						"mask" : [
+							"BBB",
+							"BAB"
+						],
+						"allowedTerrains" : [
+							"forest"
+						]
+					}
+				}
+			},
+			"gemPond" : {
+				"templates" : {
+					"forestGempond01" : {
+						"animation" : "forest/special/mines/forLanGenPon",
+						"visitableFrom" : [
+							"---",
+							"-+-",
+							"+++"
+						],
+						"mask" : [
+							"BBB",
+							"BAB"
+						],
+						"allowedTerrains" : [
+							"forest"
+						]
+					}
+				}
+			},
+			"goldMine" : {
+				"templates" : {
+					"forestGoldmine01" : {
+						"animation" : "forest/special/mines/forLanGolMin",
+						"visitableFrom" : [
+							"---",
+							"-+-",
+							"+++"
+						],
+						"mask" : [
+							"BBB",
+							"BAB"
+						],
+						"allowedTerrains" : [
+							"forest"
+						]
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,19 @@
+{
+	"core:hole" : {
+		"types" : {
+			"object" : {
+				"templates" : {
+					"forestHole" : {
+						"animation" : "forest/objects/hole/forestHole",
+						"mask" : [
+							"V"
+						],
+						"allowedTerrains" : [
+							"forest"
+						]
+					}
+				}
+			}
+		}
+	}
+}

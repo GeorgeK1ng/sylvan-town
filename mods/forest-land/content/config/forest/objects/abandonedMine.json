@@ -1,0 +1,26 @@
+{
+	"core:abandonedMine" : {
+		"types" : {
+			"mine" : {
+				"templates" : {
+					"forestAVXhilg1" : {
+						"animation" : "forest/objects/abandonedMine/AVXamjun",
+						"visitableFrom" : [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask" : [
+							"VVVV",
+							"VVVV",
+							"VBAB"
+						],
+						"allowedTerrains" : [
+							"forest"
+						]
+					}
+				}
+			}
+		}
+	}
+}

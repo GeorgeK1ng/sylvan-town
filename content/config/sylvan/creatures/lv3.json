@@ -1,0 +1,60 @@
+{
+	"evlv3" : {
+		"name" : {
+			"plural" : "Blade Dancers",
+			"singular" : "Blade Dancer"
+		},
+		"advMapAmount" : {
+			"max" : 30,
+			"min" : 25
+		},
+		"faction" : "sylvan",
+		"aiValue" : 336,
+		"attack" : 8,
+		"horde" : 3,
+		"cost" : {
+			"gold" : 200
+		},
+		"damage" : {
+			"max" : 5,
+			"min" : 3
+		},
+		"defense" : 6,
+		"fightValue" : 333,
+		"graphics" : {
+			"animation" : "sylvan/battle/lv3.def",
+			"map" : "sylvan/map/lv3.def",
+			"iconSmall" : "sylvan/iconsSmall/lv3.png",
+			"iconLarge" : "sylvan/iconsBig/lv3.png",
+			"timeBetweenFidgets" : 1,
+			"animationTime" : {
+				"walk" : 1.0,
+				"idle" : 10.2,
+				"attack" : 1.0
+			}
+		},
+		"hasDoubleWeek" : true,
+		"shots" : 18,
+		"growth" : 7,
+		"hitPoints" : 15,
+		"level" : 3,
+		"upgrades" : [
+			"evlv3up"
+		],
+		"sound" : {
+			"attack" : "WELFATTK.wav",
+			"defend" : "WELFDFND.wav",
+			"killed" : "WELFKILL.wav",
+			"move" : "WELFMOVE.wav",
+			"shoot" : "WELFSHOT.wav",
+			"wince" : "WELFWNCE.wav"
+		},
+		"speed" : 7,
+		"abilities" : {
+			"additionalAttack" : {
+				"type" : "ADDITIONAL_ATTACK",
+				"val" : 1
+			}
+		}
+	}
+}

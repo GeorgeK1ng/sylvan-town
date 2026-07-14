@@ -1,0 +1,87 @@
+{
+	"evlv2up" : {
+		"name" : {
+			"plural" : "Master Hunters",
+			"singular" : "Master Hunter"
+		},
+		"advMapAmount" : {
+			"max" : 25,
+			"min" : 16
+		},
+		"faction" : "sylvan",
+		"aiValue" : 251,
+		"attack" : 6,
+		"cost" : {
+			"gold" : 150
+		},
+		"damage" : {
+			"max" : 3,
+			"min" : 2
+		},
+		"defense" : 3,
+		"fightValue" : 257,
+		"graphics" : {
+			"animation" : "sylvan/battle/lv2up.def",
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 10,
+				"walk" : 1
+			},
+			"map" : "sylvan/map/lv3up.def",
+			"iconSmall" : "sylvan/iconsSmall/lv2up.png",
+			"iconLarge" : "sylvan/iconsBig/lv2up.png",
+			"timeBetweenFidgets" : 1,
+			"missile" : {
+				"projectile" : "PELFX.DEF",
+				"attackClimaxFrame" : 7,
+				"offset" : {
+					"upperX" : 38,
+					"upperY" : -65,
+					"middleX" : 36,
+					"middleY" : -59,
+					"lowerX" : 21,
+					"lowerY" : -50
+				},
+				"frameAngles" : [
+					90,
+					72,
+					45,
+					27,
+					0,
+					-27,
+					-45,
+					-72,
+					-90,
+					0,
+					0,
+					0
+				]
+			}
+		},
+		"hasDoubleWeek" : true,
+		"growth" : 9,
+		"hitPoints" : 10,
+		"shots" : 24,
+		"level" : 2,
+		"sound" : {
+			"attack" : "GELFATTK.wav",
+			"defend" : "GELFDFND.wav",
+			"killed" : "GELFKILL.wav",
+			"move" : "GELFMOVE.wav",
+			"shoot" : "GELFSHOT.wav",
+			"wince" : "GELFWNCE.wav"
+		},
+		"speed" : 5,
+		"abilities" : {
+			"shooter" : {
+				"type" : "SHOOTER"
+			},
+			"doubleShot" : {
+				"type" : "ADDITIONAL_ATTACK",
+				"val" : 1,
+				"description" : "@creatures.core.marksman.bonus.extraAttack",
+				"effectRange" : "ONLY_DISTANCE_FIGHT"
+			}
+		}
+	}
+}

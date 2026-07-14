@@ -1,0 +1,189 @@
+{
+	"forestMountains" : {
+		"biome" : {
+			"terrain" : "forest",
+			"level" : "surface",
+			"objectType" : "mountain"
+		},
+		"templates" : [
+			"forLanMou01",
+			"forLanMou02",
+			"forLanMou03",
+			"forLanMou04",
+			"forLanMou05",
+			"forLanMou06"
+		]
+	},
+	"forestPines" : {
+		"biome" : {
+			"terrain" : "forest",
+			"level" : "surface",
+			"objectType" : "tree"
+		},
+		"templates" : [
+			"forLandPin01",
+			"forLandPin02",
+			"forLandPin03",
+			"forLandPin04",
+			"forLandPin05",
+			"forLandPin06",
+			"forLandPin07",
+			"forLandPin08",
+			"forLandPin09",
+			"forLandPin10",
+			"forLandPin11",
+			"forLandPin12",
+			"forLandPin13",
+			"forLandPin14",
+			"forLandPin15",
+			"forLandPin16"
+		]
+	},
+	"forestOaks" : {
+		"biome" : {
+			"terrain" : "forest",
+			"level" : "surface",
+			"objectType" : "tree"
+		},
+		"templates" : [
+			"forLanOak00",
+			"forLanOak01",
+			"forLanOak02",
+			"forLanOak03",
+			"forLanOak04",
+			"forLanOak05",
+			"forLanOak06",
+			"forLanOak07",
+			"forLanOak08",
+			"forLanOak09",
+			"forLanOak10",
+			"forLanOak11"
+		]
+	},
+	"forestBirches" : {
+		"biome" : {
+			"terrain" : "forest",
+			"level" : "surface",
+			"objectType" : "tree"
+		},
+		"templates" : [
+			"forLanBir00",
+			"forLanBir01",
+			"forLanBir02",
+			"forLanBir03",
+			"forLanBir04",
+			"forLanBir05",
+			"forLanBir06",
+			"forLanBir07",
+			"forLanBir08",
+			"forLanBir09",
+			"forLanBir10",
+			"forLanBir11",
+			"forLanBir12",
+			"forLanBir13"
+		]
+	},
+	"forestWillows" : {
+		"biome" : {
+			"terrain" : "forest",
+			"level" : "surface",
+			"objectType" : "tree"
+		},
+		"templates" : [
+			"forWilTre00",
+			"forWilTre01",
+			"forWilTre02",
+			"forWilTre03",
+			"forWilTre04",
+			"forWilTre05",
+			"forWilTre06",
+			"forWilTre07",
+			"forWilTre08",
+			"forWilTre09",
+			"forWilTre10"
+		]
+	},
+	"forestFlowers" : {
+		"biome" : {
+			"terrain" : "forest",
+			"level" : "surface",
+			"objectType" : "plant"
+		},
+		"templates" : [
+			"junLanFlo1",
+			"junLanFlo2",
+			"junLanFlo3",
+			"junLanFlo4",
+			"junLanFlo5",
+			"junLanFlo6",
+			"junLanFlo7",
+			"junLanFlo8",
+			"junLanFlo9",
+			"junLanFlo10",
+			"junLanFlo11",
+			"junLanFlo12",
+			"junLanFlo13",
+			"junLanFlo14",
+			"junLanFlo15",
+			"junLanFlo17",
+			"junLanFlo18",
+			"junLanFlo19",
+			"junLanFlo20"
+		]
+	},
+	"forestMushrooms" : {
+		"biome" : {
+			"terrain" : "forest",
+			"level" : "surface",
+			"objectType" : "plant"
+		},
+		"templates" : [
+			"junLanMus01",
+			"junLanMus02",
+			"junLanMus03",
+			"junLanMus04",
+			"junLanMus05",
+			"junLanMus06"
+		]
+	},
+	"forestShrubs" : {
+		"biome" : {
+			"terrain" : "forest",
+			"level" : "surface",
+			"objectType" : "plant"
+		},
+		"templates" : [
+			"junLanShr01",
+			"junLanShr02",
+			"junLanShr03",
+			"junLanShr04",
+			"junLanShr05",
+			"junLanShr06",
+			"junLanShr07",
+			"junLanShr08",
+			"junLanShr09",
+			"junLanShr10",
+			"junLanShr11",
+			"junLanShr12",
+			"junLanShr13",
+			"junLanShr14",
+			"junLanShr15",
+			"junLanShr16"
+		]
+	},
+	"forestStumps" : {
+		"biome" : {
+			"terrain" : "forest",
+			"level" : "surface",
+			"objectType" : "other"
+		},
+		"templates" : [
+			"junLanStu01",
+			"junLanStu02",
+			"junLanStu03",
+			"junLanStu04",
+			"junLanStu05",
+			"junLanStu06"
+		]
+	}
+}

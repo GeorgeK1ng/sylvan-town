@@ -1,0 +1,54 @@
+{
+	"liminel" : {
+		"class" : "herbalist",
+		"female" : true,
+		"texts" : {
+			"name" : "Liminel",
+			"biography" : "Liminel moves with a quiet radiance that inspires all who follow her. Among Priestesses and High Priestesses, her presence sharpens both mind and spirit, turning calm devotion into swift and precise action. Near Liminel, even amid the chaos of battle, it feels as though the forest itself is urging them forward.",
+			"specialty" : {
+				"description" : "{Priestesses and High Priestesses}\n\nIncreases the Speed of Priestesses and High Priestesses by 1, and their Attack and Defense by 5% for every 5 hero levels (rounded up).",
+				"tooltip" : "Creature bonus: Priestesses",
+				"name" : "Priestesses"
+			}
+		},
+		"images" : {
+			"specialtySmall" : "sylvan/heroes/liminel/spec-small.png",
+			"specialtyLarge" : "sylvan/heroes/liminel/spec-large.png",
+			"large" : "sylvan/heroes/liminel/portrait-large.png",
+			"small" : "sylvan/heroes/liminel/portrait-small.png"
+		},
+		"spellbook" : [
+			"magicArrow"
+		],
+		"army" : [
+			{
+				"creature" : "evlv1",
+				"min" : 10,
+				"max" : 15
+			},
+			{
+				"creature" : "evlv2",
+				"min" : 6,
+				"max" : 9
+			},
+			{
+				"creature" : "evlv3",
+				"min" : 4,
+				"max" : 6
+			}
+		],
+		"skills" : [
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			},
+			{
+				"level" : "basic",
+				"skill" : "sorcery"
+			}
+		],
+		"specialty" : {
+			"creature" : "evlv5"
+		}
+	}
+}

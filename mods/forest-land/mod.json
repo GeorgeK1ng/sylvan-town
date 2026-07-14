@@ -1,0 +1,58 @@
+{
+	"name" : "Forest",
+	"description" : "A dense green forest terrain with woodland clearings, quiet lakes, natural paths, and wild growth for Sylvan-style maps.",
+	"modType" : "Objects",
+	"version" : "0.1",
+	"author" : "Noname, Fred79 for objects",
+	"contact" : "none",
+	"compatibility" : {
+		"min" : "1.5.0"
+	},
+	"conflicts" : [],
+	"changelog" : {
+		"0.0.1" : [
+			"Initial release"
+		]
+	},
+	"czech" : {
+		"name" : "Les",
+		"description" : "Hustý zelený lesní terén s mýtinami, tichými jezery, přírodními stezkami a divokým porostem pro mapy ve stylu Hvozdu."
+	},
+	"russian" : {
+		"name" : "Лесной",
+		"description" : "Густой зелёный лесной ландшафт с полянами, тихими озёрами, природными тропами и дикой порослью для карт в стиле Лесного Союза."
+	},
+	"terrains" : [
+		"config/forest/terrain/terrains.json"
+	],
+	"factions" : [
+		"config/forest/terrain/factionTerrain.json"
+	],
+	"obstacles" : [
+		"config/forest/terrain/obstacles.json"
+	],
+	"battlefields" : [
+		"config/forest/battlefields/battlefields.json"
+	],
+	"objects" : [
+		"config/forest/decorations/flowers.json",
+		"config/forest/decorations/mountains.json",
+		"config/forest/decorations/mushrooms.json",
+		"config/forest/decorations/oakTrees.json",
+		"config/forest/decorations/pineTrees.json",
+		"config/forest/decorations/stump.json",
+		"config/forest/decorations/trees.json",
+		"config/forest/decorations/willowTrees.json",
+		"config/forest/decorations/shrubs.json",
+		"config/forest/objects/abandonedMine.json",
+		"config/forest/objects/hillFort.json",
+		"config/forest/objects/forestHole.json",
+		"config/forest/special/mines.json",
+		"config/forest/special/obelisks.json",
+		"config/forest/special/signs.json",
+		"config/forest/special/subgates.json"
+	],
+	"biomes" : [
+		"config/forest/biomes/forest.json"
+	]
+}

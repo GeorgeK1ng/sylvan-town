@@ -1,0 +1,60 @@
+{
+	"forlong" : {
+		"class" : "herbalist",
+		"female" : false,
+		"texts" : {
+			"name" : "Forlong",
+			"biography" : "Forlong's calm manner often deceives enemies, until their blades begin to glance uselessly from the warriors under his protection. His magic does not flash or roar like lightning or flame; it settles over allies with the strength of ancient bark and living stone. Beneath his ward, even the most fragile warriors of the Sylvan Alliance endure blows that would break others.",
+			"specialty" : {
+				"description" : "Spell bonus: Stone Skin. The hero casts this spell with increased effect.",
+				"tooltip" : "Spell bonus: Stone Skin",
+				"name" : "Stone Skin"
+			}
+		},
+		"images" : {
+			"specialtySmall" : "sylvan/heroes/forlong/spec-small.png",
+			"specialtyLarge" : "sylvan/heroes/forlong/spec-large.png",
+			"large" : "sylvan/heroes/forlong/portrait-large.png",
+			"small" : "sylvan/heroes/forlong/portrait-small.png"
+		},
+		"spellbook" : [
+			"stoneSkin"
+		],
+		"army" : [
+			{
+				"creature" : "evlv1",
+				"min" : 10,
+				"max" : 15
+			},
+			{
+				"creature" : "evlv2",
+				"min" : 6,
+				"max" : 9
+			},
+			{
+				"creature" : "evlv3",
+				"min" : 4,
+				"max" : 6
+			}
+		],
+		"skills" : [
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			},
+			{
+				"level" : "basic",
+				"skill" : "mysticism"
+			}
+		],
+		"specialty" : {
+			"bonuses" : {
+				"stoneSkin" : {
+					"addInfo" : 0,
+					"subtype" : "spell.stoneSkin",
+					"type" : "SPECIAL_PECULIAR_ENCHANT"
+				}
+			}
+		}
+	}
+}

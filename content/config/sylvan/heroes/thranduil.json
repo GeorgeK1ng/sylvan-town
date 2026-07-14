@@ -1,0 +1,54 @@
+{
+	"thranduil" : {
+		"class" : "herbalist",
+		"female" : false,
+		"texts" : {
+			"name" : "Thranduil",
+			"biography" : "Thranduil's magical power grows with the grace of the forest itself: unseen, patient and steady. A simple spell in his hands often blooms into something far more powerful, as though the air itself amplifies his will. Allies have long learned to trust this gift; enemies rarely live long enough to understand its nature.",
+			"specialty" : {
+				"description" : "{Sorcery}\n\nReceives a 5% per level bonus to the Sorcery skill.",
+				"tooltip" : "Secondary skill bonus: Sorcery",
+				"name" : "Sorcery"
+			}
+		},
+		"images" : {
+			"specialtySmall" : "sylvan/heroes/thranduil/spec-small.png",
+			"specialtyLarge" : "sylvan/heroes/thranduil/spec-large.png",
+			"large" : "sylvan/heroes/thranduil/portrait-large.png",
+			"small" : "sylvan/heroes/thranduil/portrait-small.png"
+		},
+		"spellbook" : [
+			"dispel"
+		],
+		"army" : [
+			{
+				"creature" : "evlv1",
+				"min" : 10,
+				"max" : 15
+			},
+			{
+				"creature" : "evlv2",
+				"min" : 6,
+				"max" : 9
+			},
+			{
+				"creature" : "evlv3",
+				"min" : 4,
+				"max" : 6
+			}
+		],
+		"skills" : [
+			{
+				"skill" : "wisdom",
+				"level" : "basic"
+			},
+			{
+				"skill" : "sorcery",
+				"level" : "basic"
+			}
+		],
+		"specialty" : {
+			"secondary" : "sorcery"
+		}
+	}
+}

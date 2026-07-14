@@ -1,0 +1,57 @@
+{
+	"evlv1" : {
+		"name" : {
+			"plural" : "Fairies",
+			"singular" : "Fairy"
+		},
+		"advMapAmount" : {
+			"max" : 30,
+			"min" : 20
+		},
+		"faction" : "sylvan",
+		"aiValue" : 75,
+		"attack" : 2,
+		"cost" : {
+			"gold" : 25
+		},
+		"damage" : {
+			"max" : 2,
+			"min" : 1
+		},
+		"defense" : 2,
+		"horde" : 10,
+		"fightValue" : 70,
+		"graphics" : {
+			"animation" : "sylvan/battle/lv1.def",
+			"map" : "sylvan/map/lv1up.def",
+			"iconSmall" : "sylvan/iconsSmall/lv1.png",
+			"iconLarge" : "sylvan/iconsBig/lv1.png",
+			"timeBetweenFidgets" : 1,
+			"animationTime" : {
+				"walk" : 1,
+				"attack" : 1,
+				"idle" : 10
+			}
+		},
+		"growth" : 20,
+		"hitPoints" : 3,
+		"level" : 1,
+		"upgrades" : [
+			"evlv1up"
+		],
+		"sound" : {
+			"attack" : "PIXIATTK.wav",
+			"defend" : "PIXIDFND.wav",
+			"killed" : "PIXIKILL.wav",
+			"move" : "PIXIMOVE.wav",
+			"wince" : "PIXIWNCE.wav"
+		},
+		"speed" : 7,
+		"abilities" : {
+			"canFly" : {
+				"type" : "FLYING",
+				"subtype" : "movementFlying"
+			}
+		}
+	}
+}

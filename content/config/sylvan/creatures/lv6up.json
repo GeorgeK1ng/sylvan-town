@@ -1,0 +1,59 @@
+{
+	"evlv6up" : {
+		"name" : {
+			"plural" : "Forest Wardens",
+			"singular" : "Forest Warden"
+		},
+		"advMapAmount" : {
+			"max" : 16,
+			"min" : 8
+		},
+		"faction" : "sylvan",
+		"aiValue" : 2390,
+		"hasDoubleWeek" : true,
+		"attack" : 15,
+		"cost" : {
+			"gold" : 950
+		},
+		"damage" : {
+			"max" : 22,
+			"min" : 18
+		},
+		"defense" : 14,
+		"fightValue" : 2004,
+		"graphics" : {
+			"animation" : "sylvan/battle/lv6up.def",
+			"map" : "sylvan/map/lv6up.def",
+			"iconSmall" : "sylvan/iconsSmall/lv6up.png",
+			"iconLarge" : "sylvan/iconsBig/lv6up.png",
+			"timeBetweenFidgets" : 1,
+			"animationTime" : {
+				"walk" : 1.0,
+				"idle" : 10.0,
+				"attack" : 1.2
+			}
+		},
+		"doubleWide" : true,
+		"growth" : 2,
+		"hitPoints" : 110,
+		"level" : 6,
+		"sound" : {
+			"attack" : "BASLATTK.wav",
+			"defend" : "BASLDFND.wav",
+			"killed" : "BASLKILL.wav",
+			"move" : "BASLMOVE.wav",
+			"wince" : "BASLWNCE.wav"
+		},
+		"speed" : 9,
+		"abilities" : {
+			"enemyDefenceReduction" : {
+				"type" : "ENEMY_DEFENCE_REDUCTION",
+				"val" : 20
+			},
+			"spellResistAura" : {
+				"type" : "SPELL_RESISTANCE_AURA",
+				"val" : 20
+			}
+		}
+	}
+}

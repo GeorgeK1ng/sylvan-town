@@ -1,0 +1,28 @@
+{
+	"core:dragonUtopia" : {
+		"types" : {
+			"dragonUtopia" : {
+				"templates" : {
+					"forest" : {
+						"animation" : "forest/objects/DragonUtopia/DragonUtopiaforest",
+						"visitableFrom" : [
+							"---",
+							"-+-",
+							"+++"
+						],
+						"mask" : [
+							"VVVVVVV",
+							"VVVVVV",
+							"VVBBBB",
+							"BBBBBV",
+							"VVBBAV"
+						],
+						"allowedTerrains" : [
+							"forest"
+						]
+					}
+				}
+			}
+		}
+	}
+}

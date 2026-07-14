@@ -1,0 +1,93 @@
+{
+	"spriggan" : {
+		"name" : {
+			"plural" : "Spriggans",
+			"singular" : "Spriggan"
+		},
+		"faction" : "sylvan",
+		"aiValue" : 522,
+		"attack" : 7,
+		"shots" : 24,
+		"cost" : {
+			"gold" : 450
+		},
+		"damage" : {
+			"max" : 17,
+			"min" : 14
+		},
+		"defense" : 7,
+		"fightValue" : 501,
+		"graphics" : {
+			"animation" : "sylvan/battle/Spriggan.def",
+			"map" : "sylvan/map/Spriggan.def",
+			"iconSmall" : "sylvan/iconsSmall/Spriggan.png",
+			"iconLarge" : "sylvan/iconsBig/Spriggan.png",
+			"timeBetweenFidgets" : 1,
+			"animationTime" : {
+				"walk" : 1.3,
+				"attack" : 1,
+				"idle" : 10
+			},
+			"missile" : {
+				"projectile" : "CPRZEAX.DEF",
+				"attackClimaxFrame" : 7,
+				"offset" : {
+					"upperX" : 38,
+					"upperY" : -65,
+					"middleX" : 36,
+					"middleY" : -59,
+					"lowerX" : 21,
+					"lowerY" : -50
+				},
+				"frameAngles" : [
+					90,
+					72,
+					45,
+					27,
+					0,
+					-27,
+					-45,
+					-72,
+					-90,
+					0,
+					0,
+					0
+				]
+			}
+		},
+		"growth" : 1,
+		"doubleWide" : false,
+		"hitPoints" : 60,
+		"special" : true,
+		"level" : 0,
+		"sound" : {},
+		"speed" : 6,
+		"abilities" : {
+			"shooter" : {
+				"type" : "SHOOTER"
+			},
+			"magicResistance" : {
+				"type" : "MAGIC_RESISTANCE",
+				"val" : 5
+			},
+			"castsAmount" : {
+				"type" : "CASTS",
+				"val" : 1
+			},
+			"enchant" : {
+				"type" : "CREATURE_ENCHANT_POWER",
+				"val" : 1
+			},
+			"spellpower" : {
+				"type" : "CREATURE_SPELL_POWER",
+				"val" : 100
+			},
+			"canCast" : {
+				"type" : "SPELLCASTER",
+				"subtype" : "spell.protectEarth",
+				"val" : 3
+			}
+		},
+		"description" : "{Protection from Earth}\n\nCan cast Protection from Earth on an allied stack once per combat."
+	}
+}

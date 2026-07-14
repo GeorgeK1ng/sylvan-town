@@ -1,0 +1,61 @@
+{
+	"distortions" : {
+		"name" : "Distortions",
+		"gainChance" : {
+			"might" : 1,
+			"magic" : 1
+		},
+		"specialty" : [
+			"main"
+		],
+		"base" : {
+			"effects" : {
+				"main" : {
+					"type" : "SPELL_RESISTANCE_AURA"
+				}
+			}
+		},
+		"basic" : {
+			"images" : {
+				"small" : "sylvan/skills/bsmall",
+				"medium" : "sylvan/skills/bmedium",
+				"large" : "sylvan/skills/blarge",
+				"scenarioBonus" : "sylvan/skills/blargebonus"
+			},
+			"description" : "{Basic Distortions}\n\nCombat distortion creates an aura that gives a 10% chance to ignore an enemy spell.",
+			"effects" : {
+				"main" : {
+					"val" : 10
+				}
+			}
+		},
+		"advanced" : {
+			"images" : {
+				"small" : "sylvan/skills/asmall",
+				"medium" : "sylvan/skills/amedium",
+				"large" : "sylvan/skills/alarge",
+				"scenarioBonus" : "sylvan/skills/alargebonus"
+			},
+			"description" : "{Advanced Distortions}\n\nCombat distortion creates an aura that gives a 20% chance to ignore an enemy spell.",
+			"effects" : {
+				"main" : {
+					"val" : 20
+				}
+			}
+		},
+		"expert" : {
+			"images" : {
+				"small" : "sylvan/skills/esmall",
+				"medium" : "sylvan/skills/emedium",
+				"large" : "sylvan/skills/elarge",
+				"scenarioBonus" : "sylvan/skills/elargebonus"
+			},
+			"description" : "{Expert Distortions}\n\nCombat distortion creates an aura that gives a 30% chance to ignore an enemy spell.",
+			"effects" : {
+				"main" : {
+					"val" : 30
+				}
+			}
+		}
+	}
+}

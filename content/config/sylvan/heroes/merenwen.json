@@ -1,0 +1,51 @@
+{
+	"merenwen" : {
+		"class" : "pathfinder",
+		"female" : true,
+		"texts" : {
+			"name" : "Merenwen",
+			"biography" : "Merenwen is rarely where her enemies expect her, and often exactly where they most fear seeing her. Instinct and a subtle feel for the land let her lead troops just as swiftly along forest paths as across open ground. While the enemy is still preparing its defense, Merenwen is already near.",
+			"specialty" : {
+				"description" : "Receives a 5% per level bonus to the Logistics skill.",
+				"tooltip" : "Secondary skill bonus: Logistics",
+				"name" : "Logistics"
+			}
+		},
+		"images" : {
+			"specialtySmall" : "sylvan/heroes/merenwen/spec-small.png",
+			"specialtyLarge" : "sylvan/heroes/merenwen/spec-large.png",
+			"large" : "sylvan/heroes/merenwen/portrait-large.png",
+			"small" : "sylvan/heroes/merenwen/portrait-small.png"
+		},
+		"army" : [
+			{
+				"creature" : "evlv1",
+				"min" : 10,
+				"max" : 15
+			},
+			{
+				"creature" : "evlv2",
+				"min" : 6,
+				"max" : 9
+			},
+			{
+				"creature" : "evlv3",
+				"min" : 4,
+				"max" : 6
+			}
+		],
+		"skills" : [
+			{
+				"skill" : "archery",
+				"level" : "basic"
+			},
+			{
+				"skill" : "logistics",
+				"level" : "basic"
+			}
+		],
+		"specialty" : {
+			"secondary" : "logistics"
+		}
+	}
+}

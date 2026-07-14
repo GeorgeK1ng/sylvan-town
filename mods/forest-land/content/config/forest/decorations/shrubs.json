@@ -1,0 +1,170 @@
+{
+	"core:shrub" : {
+		"types" : {
+			"object" : {
+				"templates" : {
+					"junLanShr01" : {
+						"animation" : "forest/decorations/shrubs/junLanShr01",
+						"mask" : [
+							"VVB",
+							"VBB"
+						],
+						"allowedTerrains" : [
+							"forest"
+						]
+					},
+					"junLanShr02" : {
+						"animation" : "forest/decorations/shrubs/junLanShr02",
+						"mask" : [
+							"VV",
+							"BB"
+						],
+						"allowedTerrains" : [
+							"forest"
+						]
+					},
+					"junLanShr03" : {
+						"animation" : "forest/decorations/shrubs/junLanShr03",
+						"mask" : [
+							"VV",
+							"BB"
+						],
+						"allowedTerrains" : [
+							"forest"
+						]
+					},
+					"junLanShr04" : {
+						"animation" : "forest/decorations/shrubs/junLanShr04",
+						"mask" : [
+							"VV",
+							"BB"
+						],
+						"allowedTerrains" : [
+							"forest"
+						]
+					},
+					"junLanShr05" : {
+						"animation" : "forest/decorations/shrubs/junLanShr05",
+						"mask" : [
+							"VV",
+							"BB"
+						],
+						"allowedTerrains" : [
+							"forest"
+						]
+					},
+					"junLanShr06" : {
+						"animation" : "forest/decorations/shrubs/junLanShr06",
+						"mask" : [
+							"VV",
+							"BB"
+						],
+						"allowedTerrains" : [
+							"forest"
+						]
+					},
+					"junLanShr07" : {
+						"animation" : "forest/decorations/shrubs/junLanShr07",
+						"mask" : [
+							"VV",
+							"BB"
+						],
+						"allowedTerrains" : [
+							"forest"
+						]
+					},
+					"junLanShr08" : {
+						"animation" : "forest/decorations/shrubs/junLanShr08",
+						"mask" : [
+							"VB",
+							"BB"
+						],
+						"allowedTerrains" : [
+							"forest"
+						]
+					},
+					"junLanShr09" : {
+						"animation" : "forest/decorations/shrubs/junLanShr09",
+						"mask" : [
+							"VV",
+							"BB"
+						],
+						"allowedTerrains" : [
+							"forest"
+						]
+					},
+					"junLanShr10" : {
+						"animation" : "forest/decorations/shrubs/junLanShr10",
+						"mask" : [
+							"VV",
+							"BB"
+						],
+						"allowedTerrains" : [
+							"forest"
+						]
+					},
+					"junLanShr11" : {
+						"animation" : "forest/decorations/shrubs/junLanShr11",
+						"mask" : [
+							"VV",
+							"BB"
+						],
+						"allowedTerrains" : [
+							"forest"
+						]
+					},
+					"junLanShr12" : {
+						"animation" : "forest/decorations/shrubs/junLanShr12",
+						"mask" : [
+							"VV",
+							"BB"
+						],
+						"allowedTerrains" : [
+							"forest"
+						]
+					},
+					"junLanShr13" : {
+						"animation" : "forest/decorations/shrubs/junLanShr13",
+						"mask" : [
+							"VBV",
+							"VBV"
+						],
+						"allowedTerrains" : [
+							"forest"
+						]
+					},
+					"junLanShr14" : {
+						"animation" : "forest/decorations/shrubs/junLanShr14",
+						"mask" : [
+							"VBB",
+							"VBB"
+						],
+						"allowedTerrains" : [
+							"forest"
+						]
+					},
+					"junLanShr15" : {
+						"animation" : "forest/decorations/shrubs/junLanShr15",
+						"mask" : [
+							"VVV",
+							"VBB"
+						],
+						"allowedTerrains" : [
+							"forest"
+						]
+					},
+					"junLanShr16" : {
+						"animation" : "forest/decorations/shrubs/junLanShr16",
+						"mask" : [
+							"VVV",
+							"VBB"
+						],
+						"allowedTerrains" : [
+							"forest"
+						]
+					}
+				}
+			}
+		}
+	}
+}

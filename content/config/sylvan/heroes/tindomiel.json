@@ -1,0 +1,57 @@
+{
+	"tindomiel" : {
+		"class" : "pathfinder",
+		"female" : true,
+		"texts" : {
+			"name" : "Tindomiel",
+			"biography" : "Tindomiel walks among the hidden veins of the earth as though they whisper her name. Where she lingers, rare crystals emerge from roots and stone, as if the world's depths answer her quiet call. She does not claim these riches as her own, only saying that the forest gives what is needed when it is needed.",
+			"specialty" : {
+				"description" : "{Crystal +1}\n\nIncreases kingdom income by 1 crystal per day.",
+				"tooltip" : "+1 crystal per day",
+				"name" : "+1 Crystal"
+			}
+		},
+		"images" : {
+			"specialtySmall" : "sylvan/heroes/tindomiel/spec-small.png",
+			"specialtyLarge" : "sylvan/heroes/tindomiel/spec-large.png",
+			"large" : "sylvan/heroes/tindomiel/portrait-large.png",
+			"small" : "sylvan/heroes/tindomiel/portrait-small.png"
+		},
+		"army" : [
+			{
+				"creature" : "evlv1",
+				"min" : 10,
+				"max" : 15
+			},
+			{
+				"creature" : "evlv2",
+				"min" : 6,
+				"max" : 9
+			},
+			{
+				"creature" : "evlv3",
+				"min" : 4,
+				"max" : 6
+			}
+		],
+		"skills" : [
+			{
+				"level" : "basic",
+				"skill" : "logistics"
+			},
+			{
+				"level" : "basic",
+				"skill" : "scholar"
+			}
+		],
+		"specialty" : {
+			"bonuses" : {
+				"crystal" : {
+					"subtype" : "resource.crystal",
+					"type" : "GENERATE_RESOURCE",
+					"val" : 1
+				}
+			}
+		}
+	}
+}

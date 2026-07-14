@@ -1,0 +1,26 @@
+{
+	"core:witchHut" : {
+		"types" : {
+			"witchHut" : {
+				"templates" : {
+					"forest" : {
+						"animation" : "forest/objects/witchHut/forestWitchHut",
+						"visitableFrom" : [
+							"---",
+							"-+-",
+							"+++"
+						],
+						"mask" : [
+							"VVV",
+							"VBV",
+							"VAV"
+						],
+						"allowedTerrains" : [
+							"forest"
+						]
+					}
+				}
+			}
+		}
+	}
+}

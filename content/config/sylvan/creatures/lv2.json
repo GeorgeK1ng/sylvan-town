@@ -1,0 +1,85 @@
+{
+	"evlv2" : {
+		"name" : {
+			"plural" : "Hunters",
+			"singular" : "Hunter"
+		},
+		"advMapAmount" : {
+			"max" : 30,
+			"min" : 25
+		},
+		"faction" : "sylvan",
+		"aiValue" : 227,
+		"attack" : 6,
+		"horde" : 3,
+		"cost" : {
+			"gold" : 100
+		},
+		"damage" : {
+			"max" : 3,
+			"min" : 2
+		},
+		"defense" : 3,
+		"fightValue" : 233,
+		"graphics" : {
+			"animation" : "sylvan/battle/lv2.def",
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 10,
+				"walk" : 1
+			},
+			"map" : "sylvan/map/lv3.def",
+			"iconSmall" : "sylvan/iconsSmall/lv2.png",
+			"iconLarge" : "sylvan/iconsBig/lv2.png",
+			"timeBetweenFidgets" : 1,
+			"missile" : {
+				"projectile" : "PELFX.DEF",
+				"attackClimaxFrame" : 7,
+				"offset" : {
+					"upperX" : 38,
+					"upperY" : -65,
+					"middleX" : 36,
+					"middleY" : -59,
+					"lowerX" : 21,
+					"lowerY" : -50
+				},
+				"frameAngles" : [
+					90,
+					72,
+					45,
+					27,
+					0,
+					-27,
+					-45,
+					-72,
+					-90,
+					0,
+					0,
+					0
+				]
+			}
+		},
+		"hasDoubleWeek" : true,
+		"shots" : 12,
+		"growth" : 9,
+		"hitPoints" : 10,
+		"level" : 2,
+		"upgrades" : [
+			"evlv2up"
+		],
+		"sound" : {
+			"attack" : "WELFATTK.wav",
+			"defend" : "WELFDFND.wav",
+			"killed" : "WELFKILL.wav",
+			"move" : "WELFMOVE.wav",
+			"shoot" : "WELFSHOT.wav",
+			"wince" : "WELFWNCE.wav"
+		},
+		"speed" : 4,
+		"abilities" : {
+			"shooter" : {
+				"type" : "SHOOTER"
+			}
+		}
+	}
+}

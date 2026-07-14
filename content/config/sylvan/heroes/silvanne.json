@@ -1,0 +1,51 @@
+{
+	"silvanne" : {
+		"class" : "pathfinder",
+		"female" : true,
+		"texts" : {
+			"name" : "Silvanne",
+			"biography" : "Silvanne commands not armies, but the forest itself. In her presence, Dryads gather in restless circles and Sylvan Dryads awaken with renewed strength, answering a call older than memory. Those who underestimate her understand too late: near Silvanne, the forest is never indifferent.",
+			"specialty" : {
+				"description" : "{Dryads and Sylvan Dryads}\n\nIncreases the Speed of Dryads and Sylvan Dryads by 1, and their Attack and Defense by 5% for every 4 hero levels (rounded up).",
+				"tooltip" : "Creature bonus: Dryads",
+				"name" : "Dryads"
+			}
+		},
+		"images" : {
+			"specialtySmall" : "sylvan/heroes/silvanne/spec-small.png",
+			"specialtyLarge" : "sylvan/heroes/silvanne/spec-large.png",
+			"large" : "sylvan/heroes/silvanne/portrait-large.png",
+			"small" : "sylvan/heroes/silvanne/portrait-small.png"
+		},
+		"army" : [
+			{
+				"creature" : "evlv1",
+				"min" : 10,
+				"max" : 15
+			},
+			{
+				"creature" : "evlv2",
+				"min" : 6,
+				"max" : 9
+			},
+			{
+				"creature" : "evlv3",
+				"min" : 4,
+				"max" : 6
+			}
+		],
+		"skills" : [
+			{
+				"level" : "basic",
+				"skill" : "pathfinding"
+			},
+			{
+				"level" : "basic",
+				"skill" : "distortions"
+			}
+		],
+		"specialty" : {
+			"creature" : "evlv4"
+		}
+	}
+}

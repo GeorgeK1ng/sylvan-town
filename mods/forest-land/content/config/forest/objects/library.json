@@ -1,0 +1,25 @@
+{
+	"core:libraryOfEnlightenment" : {
+		"types" : {
+			"libraryOfEnlightenment" : {
+				"templates" : {
+					"forest" : {
+						"animation" : "forest/objects/library/forestlibrary",
+						"visitableFrom" : [
+							"---",
+							"-+-",
+							"+++"
+						],
+						"mask" : [
+							"VBBBB",
+							"VBBAB"
+						],
+						"allowedTerrains" : [
+							"forest"
+						]
+					}
+				}
+			}
+		}
+	}
+}

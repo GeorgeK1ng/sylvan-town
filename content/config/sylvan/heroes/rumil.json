@@ -1,0 +1,54 @@
+{
+	"rumil" : {
+		"class" : "herbalist",
+		"female" : false,
+		"texts" : {
+			"name" : "Rumil",
+			"biography" : "Rumil sees more than most, far more than he cares to explain. To him magic is not hidden; it merely waits to be noticed. In battle he watches enemy spellcasters closely, unravelling their secrets as easily as others loose arrows. More than once, spells aimed at him soon turn against the enemy instead.",
+			"specialty" : {
+				"description" : "Receives a 5% per level bonus to the Eagle Eye skill.",
+				"tooltip" : "Secondary skill bonus: Eagle Eye",
+				"name" : "Eagle Eye"
+			}
+		},
+		"images" : {
+			"specialtySmall" : "sylvan/heroes/rumil/spec-small.png",
+			"specialtyLarge" : "sylvan/heroes/rumil/spec-large.png",
+			"large" : "sylvan/heroes/rumil/portrait-large.png",
+			"small" : "sylvan/heroes/rumil/portrait-small.png"
+		},
+		"spellbook" : [
+			"chainLightning"
+		],
+		"army" : [
+			{
+				"creature" : "evlv1",
+				"min" : 10,
+				"max" : 15
+			},
+			{
+				"creature" : "evlv2",
+				"min" : 6,
+				"max" : 9
+			},
+			{
+				"creature" : "evlv3",
+				"min" : 4,
+				"max" : 6
+			}
+		],
+		"skills" : [
+			{
+				"skill" : "wisdom",
+				"level" : "basic"
+			},
+			{
+				"skill" : "eagleEye",
+				"level" : "basic"
+			}
+		],
+		"specialty" : {
+			"secondary" : "eagleEye"
+		}
+	}
+}

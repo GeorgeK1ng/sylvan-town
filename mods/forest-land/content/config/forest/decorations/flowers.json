@@ -1,0 +1,182 @@
+{
+	"core:flowers" : {
+		"types" : {
+			"object" : {
+				"templates" : {
+					"junLanFlo1" : {
+						"animation" : "forest/decorations/flowers/junLanFlo1",
+						"mask" : [
+							"VB"
+						],
+						"allowedTerrains" : [
+							"forest"
+						]
+					},
+					"junLanFlo2" : {
+						"animation" : "forest/decorations/flowers/junLanFlo2",
+						"mask" : [
+							"VB"
+						],
+						"allowedTerrains" : [
+							"forest"
+						]
+					},
+					"junLanFlo3" : {
+						"animation" : "forest/decorations/flowers/junLanFlo3",
+						"mask" : [
+							"VB"
+						],
+						"allowedTerrains" : [
+							"forest"
+						]
+					},
+					"junLanFlo4" : {
+						"animation" : "forest/decorations/flowers/junLanFlo4",
+						"mask" : [
+							"VB"
+						],
+						"allowedTerrains" : [
+							"forest"
+						]
+					},
+					"junLanFlo5" : {
+						"animation" : "forest/decorations/flowers/junLanFlo5",
+						"mask" : [
+							"VBV"
+						],
+						"allowedTerrains" : [
+							"forest"
+						]
+					},
+					"junLanFlo6" : {
+						"animation" : "forest/decorations/flowers/junLanFlo6",
+						"mask" : [
+							"VBV"
+						],
+						"allowedTerrains" : [
+							"forest"
+						]
+					},
+					"junLanFlo7" : {
+						"animation" : "forest/decorations/flowers/junLanFlo7",
+						"mask" : [
+							"BB"
+						],
+						"allowedTerrains" : [
+							"forest"
+						]
+					},
+					"junLanFlo8" : {
+						"animation" : "forest/decorations/flowers/junLanFlo8",
+						"mask" : [
+							"BB"
+						],
+						"allowedTerrains" : [
+							"forest"
+						]
+					},
+					"junLanFlo9" : {
+						"animation" : "forest/decorations/flowers/junLanFlo9",
+						"mask" : [
+							"BB"
+						],
+						"allowedTerrains" : [
+							"forest"
+						]
+					},
+					"junLanFlo10" : {
+						"animation" : "forest/decorations/flowers/junLanFlo10",
+						"mask" : [
+							"BB"
+						],
+						"allowedTerrains" : [
+							"forest"
+						]
+					},
+					"junLanFlo11" : {
+						"animation" : "forest/decorations/flowers/junLanFlo11",
+						"mask" : [
+							"BB"
+						],
+						"allowedTerrains" : [
+							"forest"
+						]
+					},
+					"junLanFlo12" : {
+						"animation" : "forest/decorations/flowers/junLanFlo12",
+						"mask" : [
+							"VBB"
+						],
+						"allowedTerrains" : [
+							"forest"
+						]
+					},
+					"junLanFlo13" : {
+						"animation" : "forest/decorations/flowers/junLanFlo13",
+						"mask" : [
+							"BB"
+						],
+						"allowedTerrains" : [
+							"forest"
+						]
+					},
+					"junLanFlo14" : {
+						"animation" : "forest/decorations/flowers/junLanFlo14",
+						"mask" : [
+							"BB"
+						],
+						"allowedTerrains" : [
+							"forest"
+						]
+					},
+					"junLanFlo15" : {
+						"animation" : "forest/decorations/flowers/junLanFlo15",
+						"mask" : [
+							"BB"
+						],
+						"allowedTerrains" : [
+							"forest"
+						]
+					},
+					"junLanFlo17" : {
+						"animation" : "forest/decorations/flowers/junLanFlo17",
+						"mask" : [
+							"BBB"
+						],
+						"allowedTerrains" : [
+							"forest"
+						]
+					},
+					"junLanFlo18" : {
+						"animation" : "forest/decorations/flowers/junLanFlo18",
+						"mask" : [
+							"BBB"
+						],
+						"allowedTerrains" : [
+							"forest"
+						]
+					},
+					"junLanFlo19" : {
+						"animation" : "forest/decorations/flowers/junLanFlo19",
+						"mask" : [
+							"BBB"
+						],
+						"allowedTerrains" : [
+							"forest"
+						]
+					},
+					"junLanFlo20" : {
+						"animation" : "forest/decorations/flowers/junLanFlo20",
+						"mask" : [
+							"VVV",
+							"BBB"
+						],
+						"allowedTerrains" : [
+							"forest"
+						]
+					}
+				}
+			}
+		}
+	}
+}

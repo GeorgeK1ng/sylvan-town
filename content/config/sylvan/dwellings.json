@@ -1,0 +1,139 @@
+{
+	"core:creatureGeneratorCommon" : {
+		"types" : {
+			"evMagicalForest" : {
+				"name" : "Magical Forest",
+				"creatures" : [
+					[
+						"evlv1"
+					]
+				],
+				"templates" : {
+					"default" : {
+						"animation" : "sylvan/map/dwellings/dwelling-1.def",
+						"mask" : [
+							"VV",
+							"BA"
+						]
+					}
+				},
+				"kingdomOverviewImage" : "sylvan/map/dwellings/flagports/SylvanDW1.def"
+			},
+			"evCottage" : {
+				"name" : "Cottage",
+				"creatures" : [
+					[
+						"evlv2"
+					]
+				],
+				"templates" : {
+					"default" : {
+						"animation" : "sylvan/map/dwellings/dwelling-2.def",
+						"mask" : [
+							"VVV",
+							"VBA"
+						]
+					}
+				},
+				"kingdomOverviewImage" : "sylvan/map/dwellings/flagports/SylvanDW2.def"
+			},
+			"evBelvedere" : {
+				"name" : "Belvedere",
+				"creatures" : [
+					[
+						"evlv3"
+					]
+				],
+				"templates" : {
+					"default" : {
+						"animation" : "sylvan/map/dwellings/dwelling-3.def",
+						"mask" : [
+							"VVV",
+							"VVV",
+							"VBA"
+						]
+					}
+				},
+				"kingdomOverviewImage" : "sylvan/map/dwellings/flagports/SylvanDW3.def"
+			},
+			"evHive" : {
+				"name" : "Tree House",
+				"creatures" : [
+					[
+						"evlv4"
+					]
+				],
+				"templates" : {
+					"default" : {
+						"animation" : "sylvan/map/dwellings/dwelling-4.def",
+						"mask" : [
+							"VVV",
+							"VBB",
+							"VBA"
+						]
+					}
+				},
+				"kingdomOverviewImage" : "sylvan/map/dwellings/flagports/SylvanDW4.def"
+			},
+			"evAncientAltar" : {
+				"name" : "Floating Altar",
+				"creatures" : [
+					[
+						"evlv5"
+					]
+				],
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "sylvan/map/dwellings/dwelling-5.def",
+						"mask" : [
+							"VVV",
+							"VBB",
+							"VBA"
+						]
+					}
+				},
+				"kingdomOverviewImage" : "sylvan/map/dwellings/flagports/SylvanDW5.def"
+			},
+			"evRunicCircle" : {
+				"name" : "Stone Circle",
+				"creatures" : [
+					[
+						"evlv6"
+					]
+				],
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "sylvan/map/dwellings/dwelling-6.def",
+						"mask" : [
+							"BB",
+							"BA"
+						]
+					}
+				},
+				"kingdomOverviewImage" : "sylvan/map/dwellings/flagports/SylvanDW6.def"
+			},
+			"evMountainLair" : {
+				"name" : "Mountain Lair",
+				"creatures" : [
+					[
+						"evlv7"
+					]
+				],
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "sylvan/map/dwellings/dwelling-7.def",
+						"mask" : [
+							"VVV",
+							"VBB",
+							"VBA"
+						]
+					}
+				},
+				"kingdomOverviewImage" : "sylvan/map/dwellings/flagports/SylvanDW7.def"
+			}
+		}
+	}
+}

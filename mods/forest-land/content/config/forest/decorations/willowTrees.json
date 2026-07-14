@@ -1,0 +1,129 @@
+{
+	"core:trees" : {
+		"types" : {
+			"forestWillowTrees" : {
+				"name" : "Willow Trees",
+				"templates" : {
+					"forWilTre00" : {
+						"animation" : "forest/decorations/willowTrees/forWilTre00",
+						"mask" : [
+							"VVVV",
+							"VVBB",
+							"VBBV"
+						],
+						"allowedTerrains" : [
+							"forest"
+						]
+					},
+					"forWilTre01" : {
+						"animation" : "forest/decorations/willowTrees/forWilTre01",
+						"mask" : [
+							"VVVV",
+							"VVBB",
+							"VBBV"
+						],
+						"allowedTerrains" : [
+							"forest"
+						]
+					},
+					"forWilTre02" : {
+						"animation" : "forest/decorations/willowTrees/forWilTre02",
+						"mask" : [
+							"VVVV",
+							"VBBV",
+							"VVBB"
+						],
+						"allowedTerrains" : [
+							"forest"
+						]
+					},
+					"forWilTre03" : {
+						"animation" : "forest/decorations/willowTrees/forWilTre03",
+						"mask" : [
+							"VVVV",
+							"VBBV",
+							"VVBB"
+						],
+						"allowedTerrains" : [
+							"forest"
+						]
+					},
+					"forWilTre04" : {
+						"animation" : "forest/decorations/willowTrees/forWilTre04",
+						"mask" : [
+							"VVVV",
+							"VVBB",
+							"VBBB",
+							"VBBV"
+						],
+						"allowedTerrains" : [
+							"forest"
+						]
+					},
+					"forWilTre05" : {
+						"animation" : "forest/decorations/willowTrees/forWilTre05",
+						"mask" : [
+							"VVVV",
+							"VBBV",
+							"VBBB",
+							"VVBB"
+						],
+						"allowedTerrains" : [
+							"forest"
+						]
+					},
+					"forWilTre06" : {
+						"animation" : "forest/decorations/willowTrees/forWilTre06",
+						"mask" : [
+							"VVV",
+							"BBB"
+						],
+						"allowedTerrains" : [
+							"forest"
+						]
+					},
+					"forWilTre07" : {
+						"animation" : "forest/decorations/willowTrees/forWilTre07",
+						"mask" : [
+							"VV",
+							"BB"
+						],
+						"allowedTerrains" : [
+							"forest"
+						]
+					},
+					"forWilTre08" : {
+						"animation" : "forest/decorations/willowTrees/forWilTre08",
+						"mask" : [
+							"V",
+							"B"
+						],
+						"allowedTerrains" : [
+							"forest"
+						]
+					},
+					"forWilTre09" : {
+						"animation" : "forest/decorations/willowTrees/forWilTre09",
+						"mask" : [
+							"VV",
+							"VB"
+						],
+						"allowedTerrains" : [
+							"forest"
+						]
+					},
+					"forWilTre10" : {
+						"animation" : "forest/decorations/willowTrees/forWilTre10",
+						"mask" : [
+							"VV",
+							"VB"
+						],
+						"allowedTerrains" : [
+							"forest"
+						]
+					}
+				}
+			}
+		}
+	}
+}
